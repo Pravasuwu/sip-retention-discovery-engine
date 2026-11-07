@@ -1,0 +1,57 @@
+code,type,n_participants,participants
+keeps SIP running in falls,process,4,P08 P11 P17 P20
+irregular income,descriptive,3,P01 P02 P03
+control over amount keeps them investing,value,3,P02 P03 P16
+regret after waiting,value,3,P06 P07 P20
+asking a forum to validate the plan,process,2,P01 P05
+wants amount flexibility,descriptive,2,P01 P13
+separating money into buckets,process,2,P02 P08
+buying lump sums in market falls,process,2,P03 P05
+flat or negative returns,descriptive,2,P04 P16
+distrust of industry message,value,2,P04 P09
+too many funds,descriptive,2,P05 P15
+waiting for a dip,process,2,P06 P07
+outside content shapes the decision,descriptive,2,P09 P15
+misleading return comparisons,descriptive,2,P09 P10
+comparing with FD returns,process,2,P15 P20
+goal bigger than returns,value,2,P16 P20
+fear of fixed commitment,value,1,P01
+mixing tax money with spendable cash,descriptive,1,P01
+emergency buffer before investing,process,1,P02
+stopping SIP after income change,process,1,P03
+parking money in liquid funds,process,1,P03
+booking profits instead of holding,process,1,P04
+anger at volatility,value,1,P04
+confused about fund choice,descriptive,1,P05
+drift from investing to trading,process,1,P05
+SIP seen as protection from own timing,value,1,P06
+past mistake keeps them invested,value,1,P07
+rules replace feelings,value,1,P08
+feels misled by advertising,value,1,P09
+return numbers they cannot interpret,descriptive,1,P10
+shock turns into distrust,value,1,P10
+"responsibility on self, not product",value,1,P11
+wants a rule for taking gains,descriptive,1,P11
+"SIP stopped by fund house, not investor",descriptive,1,P12
+surprise at a change they did not choose,value,1,P12
+asking a forum to explain,process,1,P12
+wants pause instead of cancel,descriptive,1,P13
+fear of losing the SIP for good,value,1,P13
+unclear payment schedule,descriptive,1,P14
+cancelling first SIP,process,1,P14
+confusion ends the SIP before it starts,value,1,P14
+checking NAV daily,process,1,P15
+nearly stopping in a fall,process,1,P15
+learning replaces panic,value,1,P15
+"stopping SIP form, keeps investing",process,1,P16
+urge to act in a fall,value,1,P17
+knowledge does not remove fear,value,1,P17
+projection pride,value,1,P18
+inflation shrinks the dream,descriptive,1,P18
+recalculating projections,process,1,P18
+plans to step up with income,process,1,P18
+matching a friend's SIP amount,process,1,P19
+cash crunch,descriptive,1,P19
+pausing in a cash crunch,process,1,P19
+social comparison sets the amount,value,1,P19
+"stopping in a fall, regretted later",process,1,P20
