@@ -6,4 +6,3 @@ The app shows the output of a discovery engine that analysed 2,339 public commen
 All numbers are pre-computed. The app runs no analysis and calls no AI at runtime.
 Author names and handles were removed from the data files. Each comment links back to its original public post.
 
-This repository is generated from the main project by `deploy/build_app_repo.py`. Don't edit it by hand.
