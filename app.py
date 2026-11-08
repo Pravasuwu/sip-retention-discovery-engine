@@ -59,9 +59,10 @@ def _clean(s):
 
 
 @st.cache_data
-def load():
-    out = json.loads((OUT / "engine_output.json").read_text(encoding="utf-8"))
-    df = pd.read_csv(OUT / "coded_records.csv", encoding="utf-8-sig")
+def load(suffix=""):
+    """suffix "" = keyword-rule labels, "_ai" = Claude labels (engine.py --labels ai). Same format either way."""
+    out = json.loads((OUT / f"engine_output{suffix}.json").read_text(encoding="utf-8"))
+    df = pd.read_csv(OUT / f"coded_records{suffix}.csv", encoding="utf-8-sig")
     df["text"] = df["text"].map(_clean)
     df["topics"] = df["themes"].fillna("").map(lambda s: [t for t in s.split(";") if t])
     df["Topic list"] = df["topics"].map(lambda ts: ", ".join(TOPIC.get(t, t) for t in ts))
@@ -100,7 +101,18 @@ def load_extra():
 
 INPUT = ROOT / "engine" / "data" / "SIP_Reviews_With_Public.xlsx"
 SURVEYS = ROOT / "engine" / "sources" / "published_surveys.csv"
-D, DF = load()
+LOG_URL = "https://claude.ai/artifact/7F8wcFQH29EzcvNJRnNsPa"
+AI_EVAL = json.loads((OUT / "ai_eval.json").read_text(encoding="utf-8")) if (OUT / "ai_eval.json").exists() else None
+LABEL_SETS = {"Keyword rules": ""}
+if (OUT / "engine_output_ai.json").exists() and (OUT / "coded_records_ai.csv").exists():
+    LABEL_SETS["Claude"] = "_ai"
+# Rules stay the default: the deck's numbers come from them. Claude's labels are one click away.
+LABELS = "Keyword rules"
+if len(LABEL_SETS) > 1:
+    LABELS = st.segmented_control("Labels", list(LABEL_SETS), default="Keyword rules", key="labels",
+                                  help="Which labeller sorted the comments. Every number on every page follows this choice. "
+                                       "See the Appendix for how each one scored against blind human labels.") or "Keyword rules"
+D, DF = load(LABEL_SETS[LABELS])
 PEOPLE, CODES, UR_THEMES, SURVEY_FIGS = load_extra()
 META = D["meta"]
 CORE = DF[DF["tier"] == "SIP-relevant"].copy()
@@ -792,6 +804,28 @@ def page_method():
                  column_config={k: st.column_config.ProgressColumn(k, min_value=0, max_value=1, format="%.2f") for k in agr.columns[1:]})
     st.markdown('<div class="note">Main limit: topics are found by keywords, so reworded comments can be missed.</div>', unsafe_allow_html=True)
 
+    if AI_EVAL:
+        S, A2, info = AI_EVAL["golden"]["side_by_side"], AI_EVAL["stance_audit"], AI_EVAL["info"]
+        st.markdown("### Claude labelling")
+        st.markdown(f'<div class="lede">Claude labelled all {info["n_ai_labelled"]:,} comments in Claude Code with a fixed prompt '
+                    f'({AI_EVAL["prompt_version"]}). Code checked every label, and each quote had to be words copied from the comment. '
+                    "Claude never saw a human label. Switch <b>Labels</b> at the top of the page to see every number with Claude's labels.</div>",
+                    unsafe_allow_html=True)
+        cmp = pd.DataFrame([
+            ("Same comment type (blind, 20)", f"{S['type_agree']['rules']}/20", f"{S['type_agree']['ai']}/20"),
+            ("Agreement beyond chance (kappa)", S["type_kappa"]["rules"], S["type_kappa"]["ai"]),
+            ("Same broad type (blind, 20)", f"{S['coarse_agree']['rules']}/20", f"{S['coarse_agree']['ai']}/20"),
+            ("Topic tags right", f"{S['topic_precision']['rules']:.0%}", f"{S['topic_precision']['ai']:.0%}"),
+            ("Topics found", f"{S['topic_recall']['rules']:.0%}", f"{S['topic_recall']['ai']:.0%}"),
+            ("Hand-checked stances (not blind for rules)", f"{A2['rules']['agree']}/{A2['rules']['n']}", f"{A2['ai']['agree']}/{A2['ai']['n']}"),
+        ], columns=["Check", "Keyword rules", "Claude"])
+        st.dataframe(cmp.astype(str), hide_index=True, width="stretch")
+        two = AI_EVAL["two_humans"]["golden_vs_audit"]
+        st.markdown(f'<div class="note">Two human label sets agree on only {two["exact"]} of {AI_EVAL["two_humans"]["n"]} shared comments, '
+                    f'so no labeller can score far above that. {info["own_story_candidates"]["n"]:,} of Claude\'s own-story calls on '
+                    f'scraped comments stay "Not clear" until a person checks them; {info["n_corrections"]} labels were corrected by hand. '
+                    f'<a href="{LOG_URL}" target="_blank">Read the evidence log</a>.</div>', unsafe_allow_html=True)
+
     st.markdown("### What's missing")
     st.markdown('<div class="lede">Today\'s evidence shows which problems exist and why. It cannot say how many investors stop, '
                 "when, or which groups are most at risk. These sources would, in order of value:</div>", unsafe_allow_html=True)
@@ -821,4 +855,5 @@ nav = st.navigation(
 )
 nav.run()
 st.markdown(f'<div class="note" style="margin-top:60px;border-top:1px solid #e2e2e2;padding-top:14px">SIP Retention Discovery Engine · '
-            f'{META["n_total"]:,} comments · {META["n_core"]:,} about SIPs · built from engine/output</div>', unsafe_allow_html=True)
+            f'{META["n_total"]:,} comments · {META["n_core"]:,} about SIPs · labels: {LABELS} · '
+            f'<a href="{LOG_URL}" target="_blank">evidence log</a></div>', unsafe_allow_html=True)

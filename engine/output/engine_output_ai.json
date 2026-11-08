@@ -1,0 +1,4718 @@
+{
+ "meta": {
+  "n_total": 2339,
+  "tiers": {
+   "SIP-relevant": 1885,
+   "Out of scope (trading)": 300,
+   "App-general": 154
+  },
+  "platforms": {
+   "Google Play": 700,
+   "YouTube": 437,
+   "Reddit": 350,
+   "TradingQnA": 307,
+   "BasuNivesh": 187,
+   "ValuePickr": 165,
+   "ReLakhs": 54,
+   "Substack": 48,
+   "Freefincal": 47,
+   "Medium": 18,
+   "Jagoinvestor": 18,
+   "Article": 8
+  },
+  "core_platforms": {
+   "Google Play": 446,
+   "YouTube": 392,
+   "Reddit": 329,
+   "TradingQnA": 272,
+   "BasuNivesh": 187,
+   "ValuePickr": 93,
+   "ReLakhs": 54,
+   "Freefincal": 47,
+   "Substack": 21,
+   "Medium": 18,
+   "Jagoinvestor": 18,
+   "Article": 8
+  },
+  "sentiment": {
+   "neutral": 975,
+   "negative": 778,
+   "positive": 517,
+   "mixed": 69
+  },
+  "play_star_dist": {
+   "1.0": 332,
+   "2.0": 177,
+   "5.0": 107,
+   "4.0": 46,
+   "3.0": 38
+  },
+  "n_core": 1885,
+  "firsthand_core": 902,
+  "journey_tagged": 13,
+  "segment_tagged": 9,
+  "date_exact": 1740,
+  "n_authors_core": 1590
+ },
+ "questions": {
+  "Q1": "What changes in their behaviour in the months after starting?",
+  "Q2": "What leads investors to pause, reduce or stop a SIP?",
+  "Q3": "What do investors check, and how often, once they have started?",
+  "Q4": "What confuses or worries them inside the app?",
+  "Q5": "What do they do outside the app when they feel unsure?",
+  "Q6": "What separates investors who continue from those who quietly drop off?",
+  "Q7": "How do patterns differ across segments (income stability, age, source of money, influence)?",
+  "Q8": "What unmet needs emerge consistently across conversations?"
+ },
+ "coverage": {
+  "Q1": {
+   "themes": [
+    "T02",
+    "T08",
+    "T09",
+    "T12",
+    "T14",
+    "T18"
+   ],
+   "n": 623,
+   "firsthand": 284,
+   "platforms": 12,
+   "grade": "Strong"
+  },
+  "Q2": {
+   "themes": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T11",
+    "T17",
+    "T18"
+   ],
+   "n": 799,
+   "firsthand": 463,
+   "platforms": 11,
+   "grade": "Strong"
+  },
+  "Q3": {
+   "themes": [
+    "T08",
+    "T09"
+   ],
+   "n": 111,
+   "firsthand": 55,
+   "platforms": 10,
+   "grade": "Strong"
+  },
+  "Q4": {
+   "themes": [
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T15",
+    "T16"
+   ],
+   "n": 947,
+   "firsthand": 591,
+   "platforms": 12,
+   "grade": "Strong"
+  },
+  "Q5": {
+   "themes": [
+    "T10",
+    "T11",
+    "T15"
+   ],
+   "n": 551,
+   "firsthand": 298,
+   "platforms": 12,
+   "grade": "Strong"
+  },
+  "Q6": {
+   "themes": [
+    "T01",
+    "T12",
+    "T13"
+   ],
+   "n": 29,
+   "firsthand": 240,
+   "platforms": 12,
+   "grade": "Weak"
+  },
+  "Q7": {
+   "themes": [
+    "T04"
+   ],
+   "n": 347,
+   "firsthand": 27,
+   "platforms": 9,
+   "grade": "Weak"
+  },
+  "Q8": {
+   "themes": [
+    "T05",
+    "T13",
+    "T14",
+    "T17"
+   ],
+   "n": 627,
+   "firsthand": 335,
+   "platforms": 12,
+   "grade": "Strong"
+  }
+ },
+ "themes": {
+  "T01": {
+   "label": "Returns below expectation / 'SIP isn't working'",
+   "questions": [
+    "Q2",
+    "Q6"
+   ],
+   "n": 113,
+   "n_authors": 102,
+   "share": 0.0599,
+   "ci": [
+    0.0493,
+    0.0706
+   ],
+   "weighted": 74.28,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "ReLakhs",
+    "Reddit",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 8,
+   "firsthand": 50,
+   "neg_share": 0.566,
+   "at_risk_share": 0.044,
+   "quotes": [
+    {
+     "record_id": "R0266",
+     "platform": "Reddit",
+     "text": "Not really man. You can definitely learn and invest. It's your hard earned money. SIP gives you discipline to save and invest. After 18 months, I stopped it in Indian equities, and started learning about the market and soon realized diversification is the key."
+    },
+    {
+     "record_id": "R0290",
+     "platform": "Reddit",
+     "text": "Yesterday was exactly one year since I began my sips, my total returns are at 4.8% and XIRR is at 9% (it was 14% two weeks ago), even in this bear market I am comfortably breaking FD returns, plus I am accumulating units for when the war stops and market inevi"
+    },
+    {
+     "record_id": "R0318",
+     "platform": "Reddit",
+     "text": "I\u2019ve been procrastinating but I\u2019m gonna stop now, FD would have given better returns in past 2 years"
+    },
+    {
+     "record_id": "R0587",
+     "platform": "Google Play",
+     "text": "totally apko bhkane wali app h koi sip 2 sal se minus m return de rhi h or dikhate h 30 % return"
+    },
+    {
+     "record_id": "R0727",
+     "platform": "Google Play",
+     "text": "ET money is good at telling stories. They are good for nothing. A Fixed deposit is better than the paid feature of ET money. I have been investing for the last 4 years, ET money has given me a return of negative 3 percent returns by charging a handsome amount "
+    },
+    {
+     "record_id": "R0785",
+     "platform": "Google Play",
+     "text": "Horrible experience. Lured me in using dark patterns stating their strategies make for higher returns. The minimum SIP is 5k, upon that they will charge 250 per month for \"premium\" services. 1 year down the line, the returns have been abysmal, worse than 1 sta"
+    }
+   ]
+  },
+  "T02": {
+   "label": "No visible progress / flat NAV / boredom",
+   "questions": [
+    "Q2",
+    "Q1"
+   ],
+   "n": 54,
+   "n_authors": 50,
+   "share": 0.0286,
+   "ci": [
+    0.0212,
+    0.0366
+   ],
+   "weighted": 36.91,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Google Play",
+    "ReLakhs",
+    "Reddit",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 8,
+   "firsthand": 21,
+   "neg_share": 0.63,
+   "at_risk_share": 0.074,
+   "quotes": [
+    {
+     "record_id": "R0318",
+     "platform": "Reddit",
+     "text": "I\u2019ve been procrastinating but I\u2019m gonna stop now, FD would have given better returns in past 2 years"
+    },
+    {
+     "record_id": "R0587",
+     "platform": "Google Play",
+     "text": "totally apko bhkane wali app h koi sip 2 sal se minus m return de rhi h or dikhate h 30 % return"
+    },
+    {
+     "record_id": "R0342",
+     "platform": "Reddit",
+     "text": "Stopped SIPs in the Indian market a year earlier. Says the absence of returns over the last year made them glad they stopped."
+    },
+    {
+     "record_id": "R1050",
+     "platform": "Reddit",
+     "text": "Fixed is LIC , PPF ..so can't withdraw... I can withdraw SIP, right...vaise bhi last 3 years mein 0% hi return aaya hai"
+    },
+    {
+     "record_id": "R1064",
+     "platform": "Reddit",
+     "text": "My money is also hard earned. SIPs work best in the environment exactly like the current one where the markets go no where for long periods of time. I am in my accumulation phase, so sideways markets means that I am accumulating units and the market is not run"
+    },
+    {
+     "record_id": "R1252",
+     "platform": "YouTube",
+     "text": "Even I want nifty to stay as it is or fall for few years, so that I can accumulate NAV at lower price."
+    }
+   ]
+  },
+  "T03": {
+   "label": "Market-fall fear / loss aversion",
+   "questions": [
+    "Q2"
+   ],
+   "n": 73,
+   "n_authors": 68,
+   "share": 0.0387,
+   "ci": [
+    0.0302,
+    0.0472
+   ],
+   "weighted": 48.74,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "ReLakhs",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 11,
+   "firsthand": 30,
+   "neg_share": 0.411,
+   "at_risk_share": 0.014,
+   "quotes": [
+    {
+     "record_id": "R0536",
+     "platform": "Google Play",
+     "text": "SHAME ON YOU IND MONEY. This is worst application, these guys have charge more than rupees 4000 for SIP mandate bounce, if indmoney think that it will encourage investor to invest more amount without fail, you are wrong, you people are cheating on your custome"
+    },
+    {
+     "record_id": "R0822",
+     "platform": "Google Play",
+     "text": "worst trading stock platform bante ja rh h worst sip withdrawal k liye bank change Kiya th kyunki old bank freeze h per vo change reject krdiy h ab roj sip ki value ghatti ja rhi h share ki value ghatti ja rhi h per paise withdrawal nhi ho rhe h not expected t"
+    },
+    {
+     "record_id": "R1194",
+     "platform": "YouTube",
+     "text": "Ravi ji, I have invested lump sum amount in MF equity fund growth and the present market downfall ,I want to switch in risk free and secure fund . Please advise immediately. Thanks"
+    },
+    {
+     "record_id": "R1344",
+     "platform": "YouTube",
+     "text": "I only do lump-sum, this helped me 60% return during current rally but my sip friends are around 10%return as they stopped sip during crash. This is how market work . I do aggressive investing when I see nifty below 19pe or below 2.0 price to book value. I kno"
+    },
+    {
+     "record_id": "R1367",
+     "platform": "YouTube",
+     "text": "Sir what do you say about itbees , i am investing on dips since last year now its keep on falling every day what should do , invest more or stop for some time?"
+    },
+    {
+     "record_id": "R1432",
+     "platform": "YouTube",
+     "text": "Bhai abhi m.f me loss me hi ho invest Kiya vo sab minus me hai kya karu"
+    }
+   ]
+  },
+  "T04": {
+   "label": "Income or life shock (job loss, medical, home, wedding)",
+   "questions": [
+    "Q2",
+    "Q7"
+   ],
+   "n": 48,
+   "n_authors": 46,
+   "share": 0.0255,
+   "ci": [
+    0.0186,
+    0.0324
+   ],
+   "weighted": 31.92,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "Reddit",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 9,
+   "firsthand": 27,
+   "neg_share": 0.188,
+   "at_risk_share": 0.062,
+   "quotes": [
+    {
+     "record_id": "R0015",
+     "platform": "Google Play",
+     "text": "Giving 1 star just because I tried a lot to skip my sips for a month and it shows it can be done 2 days before sip date, but even before 2 days it doesn't work. I recently got operated on my knee and I'm not able to go for work due to which I'm facing financia"
+    },
+    {
+     "record_id": "R0457",
+     "platform": "Reddit",
+     "text": "Used their first four to five years of investments for a home deposit and restarted SIPs after completing the home loan."
+    },
+    {
+     "record_id": "R0458",
+     "platform": "Reddit",
+     "text": "Had not invested because their job was unstable."
+    },
+    {
+     "record_id": "R1006",
+     "platform": "Reddit",
+     "text": "I had SIPs all the way, I wish i had started sooner. I too tried to buy stocks only to realise i can't give it much time to justify that approach. Stuck to Index funds portfolio now. When it came to emergency funds and savings, i did all of that post marriage."
+    },
+    {
+     "record_id": "R1037",
+     "platform": "Reddit",
+     "text": "What needs to be done is up to you. I can give you an example of what I did. I had an educational loan of 8-9L and my EMI was 11-12k/mo. My salary at that time was just 60k/mo. I was doing an SIP of 10k and the rest was being to the EMI (~20k). My thought proc"
+    },
+    {
+     "record_id": "R1128",
+     "platform": "YouTube",
+     "text": "Sir main sip ka Paisa 2 months nei de paunga. Toh kya 2 mahine skip sip option select Karu ya cancel sip option? 2 months ke baad firse start karna chahta hun aur beech mein Kuch redeem nehi hoga. Sab invested rahega"
+    }
+   ]
+  },
+  "T05": {
+   "label": "Can't pause / skip / change date flexibly",
+   "questions": [
+    "Q2",
+    "Q4",
+    "Q8"
+   ],
+   "n": 143,
+   "n_authors": 131,
+   "share": 0.0759,
+   "ci": [
+    0.0631,
+    0.0881
+   ],
+   "weighted": 111.9,
+   "platforms": [
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Reddit",
+    "TradingQnA",
+    "YouTube"
+   ],
+   "n_platforms": 6,
+   "firsthand": 82,
+   "neg_share": 0.406,
+   "at_risk_share": 0.021,
+   "quotes": [
+    {
+     "record_id": "R0015",
+     "platform": "Google Play",
+     "text": "Giving 1 star just because I tried a lot to skip my sips for a month and it shows it can be done 2 days before sip date, but even before 2 days it doesn't work. I recently got operated on my knee and I'm not able to go for work due to which I'm facing financia"
+    },
+    {
+     "record_id": "R0128",
+     "platform": "Google Play",
+     "text": "Allow us to pause SIPs indefinitely. Currently you can skip 1 installment or cancel completely but I just want to pause for a few months."
+    },
+    {
+     "record_id": "R0216",
+     "platform": "Google Play",
+     "text": "At first it felt good as its very easy to buy an sip without paying commission, but don't know it was a glitch but 2 duplicate sip were created and amount was deducted from my account. When reported the support was not that helpful. They don't even have an opt"
+    },
+    {
+     "record_id": "R0471",
+     "platform": "Google Play",
+     "text": "very disgusting app..i am not able to find sip date and amount adjust option"
+    },
+    {
+     "record_id": "R0480",
+     "platform": "Google Play",
+     "text": "i am unable to unpause the SIP, when I click on the paused SIP the app instantly closes. Please fix this issue ASAP."
+    },
+    {
+     "record_id": "R0496",
+     "platform": "Google Play",
+     "text": "hasselfree, can be handled by a person having basic understanding. After using the app for a while, I found that some important features are missing e.g SWP, PAUSING/ RESTARTING, STOPPING SIP, REDEMPTION as of now. Hopefully this will be addressed as soon as p"
+    }
+   ]
+  },
+  "T06": {
+   "label": "Mandate / auto-debit / SIP payment failures",
+   "questions": [
+    "Q2",
+    "Q4"
+   ],
+   "n": 236,
+   "n_authors": 215,
+   "share": 0.1252,
+   "ci": [
+    0.1109,
+    0.1395
+   ],
+   "weighted": 201.35,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "YouTube"
+   ],
+   "n_platforms": 8,
+   "firsthand": 179,
+   "neg_share": 0.631,
+   "at_risk_share": 0.0,
+   "quotes": [
+    {
+     "record_id": "R0005",
+     "platform": "Google Play",
+     "text": "My bank account has been blocked due to an unexpected transaction from Groww. I did not initiate or withdraw any money, yet funds were automatically credited to my account. It has been almost a month, and my account is still blocked. As a result, my EMI and SI"
+    },
+    {
+     "record_id": "R0216",
+     "platform": "Google Play",
+     "text": "At first it felt good as its very easy to buy an sip without paying commission, but don't know it was a glitch but 2 duplicate sip were created and amount was deducted from my account. When reported the support was not that helpful. They don't even have an opt"
+    },
+    {
+     "record_id": "R0235",
+     "platform": "Google Play",
+     "text": "Everything's great till you get into an issue. From then on there's no proper support. There was a monthly SIP for which my bank account has been debited but the order is not completed on GROWW even after 7 days. Raised a ticket, contacted support team through"
+    },
+    {
+     "record_id": "R0472",
+     "platform": "Google Play",
+     "text": "I started an sip and paid the first amount it was debited from my account but it failed saying kyc is not valid and there's no option for rekyc even the support system doesn't help. Edit : the support team reached out to help with the rekyc"
+    },
+    {
+     "record_id": "R0488",
+     "platform": "Google Play",
+     "text": "the App is good, but why I can't start new Sip To my Link Account, it's automatically choose Upi, \ud83e\udeeaI don't want To Use Upi FOR Sip , Can You Do Something \ud83e\udee1"
+    },
+    {
+     "record_id": "R0495",
+     "platform": "Google Play",
+     "text": "my sip deducted two times this month and no response from complaint"
+    }
+   ]
+  },
+  "T07": {
+   "label": "Fees, exit load and charges unclear",
+   "questions": [
+    "Q4"
+   ],
+   "n": 153,
+   "n_authors": 147,
+   "share": 0.0812,
+   "ci": [
+    0.07,
+    0.0934
+   ],
+   "weighted": 119.65,
+   "platforms": [
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Medium",
+    "Reddit",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 8,
+   "firsthand": 83,
+   "neg_share": 0.471,
+   "at_risk_share": 0.007,
+   "quotes": [
+    {
+     "record_id": "R0101",
+     "platform": "Google Play",
+     "text": "Started using Groww for mutual funds and stocks just 2 days ago, and already disappointed. There are hidden charges on small, small services that aren't clearly disclosed upfront \u2014 feels misleading for a new user. On top of that, the app isn't very convenient "
+    },
+    {
+     "record_id": "R0511",
+     "platform": "Google Play",
+     "text": "when you buy a sip that takes 2-3days and when you switch by mistake then it's unable to cancel after 1 min. other than this take 1 paisa extra on each order.Customer support is useless."
+    },
+    {
+     "record_id": "R0536",
+     "platform": "Google Play",
+     "text": "SHAME ON YOU IND MONEY. This is worst application, these guys have charge more than rupees 4000 for SIP mandate bounce, if indmoney think that it will encourage investor to invest more amount without fail, you are wrong, you people are cheating on your custome"
+    },
+    {
+     "record_id": "R0551",
+     "platform": "Google Play",
+     "text": "I'm not satisfied with their brokerage and no guidelines is given for the beginners still have to improve in many aspects that too in SIP section I have invested and in the app I found the SIP later on. I lost my savings eventhough it's less amount I had it fo"
+    },
+    {
+     "record_id": "R0552",
+     "platform": "Google Play",
+     "text": "Veary bad sip money was not ok vo balance ki chori krta h....."
+    },
+    {
+     "record_id": "R0569",
+     "platform": "Google Play",
+     "text": "Big disappointing me 3 sal se sip kar rha tha or sb shi Chal rha tha pr jbse inkaa MF Prime aaya h vo meri sabse badi galti thi usme phle to meri auto Sip kam ki bina permission or 10-12 bar switch krne ko bola kr bi diya mere chune Sip ko poor bta kr auto swi"
+    }
+   ]
+  },
+  "T08": {
+   "label": "Return metrics confusing (XIRR, NAV date, sale value)",
+   "questions": [
+    "Q3",
+    "Q4",
+    "Q1"
+   ],
+   "n": 93,
+   "n_authors": 90,
+   "share": 0.0493,
+   "ci": [
+    0.0398,
+    0.0594
+   ],
+   "weighted": 73.66,
+   "platforms": [
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "Medium",
+    "Reddit",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 9,
+   "firsthand": 45,
+   "neg_share": 0.29,
+   "at_risk_share": 0.011,
+   "quotes": [
+    {
+     "record_id": "R0220",
+     "platform": "Google Play",
+     "text": "i using it for around 2 month's and i invested on a cap fund it goes up and I got 549 but when I redeem it i goes down and down and I got only 525. what is happening. then i mind to deleted my account from this app."
+    },
+    {
+     "record_id": "R0290",
+     "platform": "Reddit",
+     "text": "Yesterday was exactly one year since I began my sips, my total returns are at 4.8% and XIRR is at 9% (it was 14% two weeks ago), even in this bear market I am comfortably breaking FD returns, plus I am accumulating units for when the war stops and market inevi"
+    },
+    {
+     "record_id": "R0484",
+     "platform": "Google Play",
+     "text": "after recent updates not good. not able to see how much I have invested in US SIP and how much profit loss in SIP, Earlier it was visible"
+    },
+    {
+     "record_id": "R0506",
+     "platform": "Google Play",
+     "text": "Mutual fund showing the absolute % rate which is not correct for SIP investment, it should show the XIRR returns, which is the correct way to check our investment returns, When we see our portfolio it can see only absolute returns not able to find we are inves"
+    },
+    {
+     "record_id": "R0587",
+     "platform": "Google Play",
+     "text": "totally apko bhkane wali app h koi sip 2 sal se minus m return de rhi h or dikhate h 30 % return"
+    },
+    {
+     "record_id": "R0638",
+     "platform": "Google Play",
+     "text": "Coin is overall a solid app, but the XIRR calculation on the portfolio tab has been continuously buffering and failing to load lately. Tracking real returns is a core feature for SIP investors. Hoping for a quick bug fix from the dev team"
+    }
+   ]
+  },
+  "T09": {
+   "label": "Checking behaviour / monitoring stress",
+   "questions": [
+    "Q3",
+    "Q1"
+   ],
+   "n": 19,
+   "n_authors": 19,
+   "share": 0.0101,
+   "ci": [
+    0.0058,
+    0.0149
+   ],
+   "weighted": 12.66,
+   "platforms": [
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 8,
+   "firsthand": 11,
+   "neg_share": 0.053,
+   "at_risk_share": 0.0,
+   "quotes": [
+    {
+     "record_id": "R0702",
+     "platform": "Google Play",
+     "text": "There are too many bugs in app. I had to open 4 support tickets in last 2 months to report issues. Everytime they did something in backend and resolved the issues. No RCA provided. This app will be risky for Folks who are not actively monitoring there account "
+    },
+    {
+     "record_id": "R1007",
+     "platform": "Reddit",
+     "text": "I've kept it very simple which works for me - so I've decided - 40% in Nifty 50 index, 30% in Nifty 150 midcap index, 20% in small cap index, 10% in global fund - Invesco global equity FoF. It's a set and forget type of SIP for me. I've realised i can give onc"
+    },
+    {
+     "record_id": "R1289",
+     "platform": "YouTube",
+     "text": "Please help me with these questions 1) Can I do both SIP and Bulk 2) I am someone who does not even open the market everyday and my job doesn't allow me to do the same, how can I do the selling on right time?"
+    },
+    {
+     "record_id": "R1438",
+     "platform": "YouTube",
+     "text": "Raju bhai mere sath bhi aisa hua tha 2 saal k baad tak meri sip loss me thi Jb 4 saal baad ittifakan mujhe dekhne ka mauka mila to nearabot double ho gya tha \ud83d\udc4d\ud83d\ude4f\ud83c\udffb\ud83d\ude4f\ud83c\udffb\ud83d\udc4d\ud83d\ude4f\ud83c\udffb\ud83d\udc4d\ud83d\ude4f\ud83c\udffb\ud83d\udc4d\ud83d\ude4f\ud83c\udffb\ud83d\ude0a Uske baad kareeb 25000 tak ka aur sip shuru kiya"
+    },
+    {
+     "record_id": "R1916",
+     "platform": "ValuePickr",
+     "text": "I was a passive investor for 7 yrs with Sundaram finance - I got 19% cagr. But when entered it , I had zero clue what a mutual fund does or how things work. Yet without knowing anything , I kept giving my SIP for 5 years. I didn\u2019t even look at returns . Then o"
+    },
+    {
+     "record_id": "R2036",
+     "platform": "Freefincal",
+     "text": "I also came across a closer strategy to this one like \u201cWhenever NAV of a mutual fund goes below 10 month moving average, just exit from it. Re invest again in it,only when the NAV goes above 10 month moving average\u201d \u2013 \n Though, I am not sure how could i get th"
+    }
+   ]
+  },
+  "T10": {
+   "label": "Seeks reassurance / advice outside the app",
+   "questions": [
+    "Q5"
+   ],
+   "n": 128,
+   "n_authors": 121,
+   "share": 0.0679,
+   "ci": [
+    0.0573,
+    0.0801
+   ],
+   "weighted": 87.74,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "ReLakhs",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 11,
+   "firsthand": 72,
+   "neg_share": 0.094,
+   "at_risk_share": 0.008,
+   "quotes": [
+    {
+     "record_id": "R0657",
+     "platform": "Google Play",
+     "text": "Edit: Resolved now \"Unable to fetch mutual funds data\" error message despite proper internet connection. Neither clearing cache nor reinstalling is resolving issue due to which Search for funds is always resulting in \"No Results found\". Next time onwards (afte"
+    },
+    {
+     "record_id": "R0839",
+     "platform": "Google Play",
+     "text": "very cluttered app. difficult to find any actionable. I'm trying to find ways to cancel one of my sips. despite spending one hour and google the same, I couldn't get it done myself. i wouldn't recommend it."
+    },
+    {
+     "record_id": "R0270",
+     "platform": "Reddit",
+     "text": "This is my personal opinion. This is what i have learnt. I don't follow any finfluencers. I read books and follow news. Back tested things using ai and have a screenr according to my experiences and what i look for in a company. SIP gives you discipline and no"
+    },
+    {
+     "record_id": "R1008",
+     "platform": "Reddit",
+     "text": "I started educating myself properly instead of just blindly following tips. I read, watch credible content and keep learning. I even did a proper stock market course which helped me understand a lot more about stocks.. Right now, my approach is to stick to a m"
+    },
+    {
+     "record_id": "R1015",
+     "platform": "Reddit",
+     "text": "I discovered MFs in 2004 and have been investing in them. Once direct investing was opened up in 2011 or so, I started doing direct investment (pre online days, I would fill up the form and post the form along with cheques!) for many years. Recently a private "
+    },
+    {
+     "record_id": "R1046",
+     "platform": "Reddit",
+     "text": "Ngl even I learnt about investments from social media during Covid lockdown. But all I learnt was to keep it simple with mutual funds(index funds primarily) if you don\u2019t have the acumen to do your own research. So never tried direct stocks or F&O. Been 5+ year"
+    }
+   ]
+  },
+  "T11": {
+   "label": "Distrust of market, funds or intermediaries",
+   "questions": [
+    "Q2",
+    "Q5"
+   ],
+   "n": 68,
+   "n_authors": 67,
+   "share": 0.0361,
+   "ci": [
+    0.0281,
+    0.0446
+   ],
+   "weighted": 47.96,
+   "platforms": [
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Reddit",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 7,
+   "firsthand": 14,
+   "neg_share": 0.897,
+   "at_risk_share": 0.015,
+   "quotes": [
+    {
+     "record_id": "R0266",
+     "platform": "Reddit",
+     "text": "Not really man. You can definitely learn and invest. It's your hard earned money. SIP gives you discipline to save and invest. After 18 months, I stopped it in Indian equities, and started learning about the market and soon realized diversification is the key."
+    },
+    {
+     "record_id": "R0653",
+     "platform": "Google Play",
+     "text": "I don't know what is wrong with you COIN , when market is down , you didn't accept the payment fir that day , it happens with me frequently, today also your aap not giving the actual investment as well as not allowing me to put money for my SIP. what is this h"
+    },
+    {
+     "record_id": "R0667",
+     "platform": "Google Play",
+     "text": "Everywhere manipulation, Zerodha is earning much more than the brokerage by manipulating NAV in this app. When the market falls , NAV of mutual funds updates before 6pm on that day, when the market rises mutual funds NAV are not updating till the next day. whe"
+    },
+    {
+     "record_id": "R0785",
+     "platform": "Google Play",
+     "text": "Horrible experience. Lured me in using dark patterns stating their strategies make for higher returns. The minimum SIP is 5k, upon that they will charge 250 per month for \"premium\" services. 1 year down the line, the returns have been abysmal, worse than 1 sta"
+    },
+    {
+     "record_id": "R0789",
+     "platform": "Google Play",
+     "text": "Big Scam. I have investment in SIP. when i withdraw money the amount which is shows at the time of withdrawal is more than what i got. But when i withdraw the money from groww at the same time i got the same amount which i was withdraw that's the difference do"
+    },
+    {
+     "record_id": "R0823",
+     "platform": "Google Play",
+     "text": "froud hai mutual fund me 21 wali 2 aur 25 wali 1 sip start kiye the kuch din paise Kate bhi sab sip me milakar kam se kam 1100 ke karib ho gaye lekin jab hamne apne paise nikalne chahe to inke hishab se mere account me aa gaye lekin abhi tak paise aaye nahi ha"
+    }
+   ]
+  },
+  "T12": {
+   "label": "Habit, discipline and long-horizon framing (continuers)",
+   "questions": [
+    "Q6",
+    "Q1"
+   ],
+   "n": 242,
+   "n_authors": 215,
+   "share": 0.1284,
+   "ci": [
+    0.1141,
+    0.1432
+   ],
+   "weighted": 167.35,
+   "platforms": [
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "Medium",
+    "ReLakhs",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 11,
+   "firsthand": 101,
+   "neg_share": 0.037,
+   "at_risk_share": 0.008,
+   "quotes": [
+    {
+     "record_id": "R0290",
+     "platform": "Reddit",
+     "text": "Yesterday was exactly one year since I began my sips, my total returns are at 4.8% and XIRR is at 9% (it was 14% two weeks ago), even in this bear market I am comfortably breaking FD returns, plus I am accumulating units for when the war stops and market inevi"
+    },
+    {
+     "record_id": "R0521",
+     "platform": "Google Play",
+     "text": "\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f Seamless SIP registration experience \ud83d\ude4c\ud83d\udcb9. The app makes investing simple, transparent & hassle-free. Highly recommend for disciplined wealth creation \ud83d\udcc8\u2728"
+    },
+    {
+     "record_id": "R0632",
+     "platform": "Google Play",
+     "text": "There should be options to nickname or add a brief DESCRIPTION to my opted/Active MFs. In the long run, It'll help me remember the purpose of choosing that specific MF & to decide when to raise or cut the SIP amount to achieve my target. e.g. I can write in de"
+    },
+    {
+     "record_id": "R0633",
+     "platform": "Google Play",
+     "text": "I shifted from Groww to Zerodha Coin, and I'm really happy with my decision. Coin offers quarterly SIPs (every 3 months) and AMC SIPs, which are very useful features for long-term investors. I don't know why Coin has received so many negative reviews on the Pl"
+    },
+    {
+     "record_id": "R0653",
+     "platform": "Google Play",
+     "text": "I don't know what is wrong with you COIN , when market is down , you didn't accept the payment fir that day , it happens with me frequently, today also your aap not giving the actual investment as well as not allowing me to put money for my SIP. what is this h"
+    },
+    {
+     "record_id": "R0849",
+     "platform": "Google Play",
+     "text": "This is a very useful app. The feature I like the most is the ability to invest through Daily SIPs in a wide range of direct mutual funds, even with a very small investment amount. FYI, Weekly and monthly SIPs are also available in this app in Direct funds. I "
+    }
+   ]
+  },
+  "T13": {
+   "label": "Goal clarity / purpose of the money",
+   "questions": [
+    "Q6",
+    "Q8"
+   ],
+   "n": 211,
+   "n_authors": 185,
+   "share": 0.1119,
+   "ci": [
+    0.0981,
+    0.1268
+   ],
+   "weighted": 144.78,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "Medium",
+    "ReLakhs",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 12,
+   "firsthand": 126,
+   "neg_share": 0.062,
+   "at_risk_share": 0.005,
+   "quotes": [
+    {
+     "record_id": "R0531",
+     "platform": "Google Play",
+     "text": "This is a great app for investing. There could be great improvements. 1. There could be tagging of mf investemnts towards a goal and filtering based on these tags. This will attract more users to the platform as this will remove the hassel of remembering the g"
+    },
+    {
+     "record_id": "R0548",
+     "platform": "Google Play",
+     "text": "Lord of personal finance. \ud83d\ude4f Loved it. How can I switch MF SIP from other broker. I have two suggestions 1. Let us manually add monthly sip in NPS under goal section so that it'll reflect more accurately 2. Consider it increases in sip annually ( for example if"
+    },
+    {
+     "record_id": "R0632",
+     "platform": "Google Play",
+     "text": "There should be options to nickname or add a brief DESCRIPTION to my opted/Active MFs. In the long run, It'll help me remember the purpose of choosing that specific MF & to decide when to raise or cut the SIP amount to achieve my target. e.g. I can write in de"
+    },
+    {
+     "record_id": "R0457",
+     "platform": "Reddit",
+     "text": "Used their first four to five years of investments for a home deposit and restarted SIPs after completing the home loan."
+    },
+    {
+     "record_id": "R1006",
+     "platform": "Reddit",
+     "text": "I had SIPs all the way, I wish i had started sooner. I too tried to buy stocks only to realise i can't give it much time to justify that approach. Stuck to Index funds portfolio now. When it came to emergency funds and savings, i did all of that post marriage."
+    },
+    {
+     "record_id": "R1115",
+     "platform": "YouTube",
+     "text": "I started my SIP today. Age : 20 yr old Amount : 5000 per month Nippon Large Cap : 2000/- Motiwal Mid Cap : 2000/- Bandhan Small Cap : 1000/- I'll try to stay consistent for at least 10 yrs with step up of 10-15% each year. Let's hope for the best guys. Happy "
+    }
+   ]
+  },
+  "T14": {
+   "label": "Lump-sum / dip-buying decision paralysis",
+   "questions": [
+    "Q1",
+    "Q8"
+   ],
+   "n": 213,
+   "n_authors": 191,
+   "share": 0.113,
+   "ci": [
+    0.0987,
+    0.1273
+   ],
+   "weighted": 146.84,
+   "platforms": [
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "ReLakhs",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 10,
+   "firsthand": 84,
+   "neg_share": 0.085,
+   "at_risk_share": 0.005,
+   "quotes": [
+    {
+     "record_id": "R0840",
+     "platform": "Google Play",
+     "text": "sip may extra money not add money extra option not show"
+    },
+    {
+     "record_id": "R0369",
+     "platform": "YouTube",
+     "text": "Reports skipping some SIP instalments because they perceive the investments to be at a return peak."
+    },
+    {
+     "record_id": "R0459",
+     "platform": "Reddit",
+     "text": "Funds about eight family accounts for around 20 SIPs on different dates, which is cumbersome. Says return calculations are complicated because investments occur at different dates and NAVs. Regular SIPs use up available savings, leaving no lump sum for market "
+    },
+    {
+     "record_id": "R0307",
+     "platform": "Reddit",
+     "text": "Yes there can be, but in the long term equity will always beat FDs, thats why the 10, preferably 15 year time frame, if you start cribbing after an year then equity is not for you better to stick to FDs Plus not all markets will be in a perpetual bear cycle, i"
+    },
+    {
+     "record_id": "R0937",
+     "platform": "Reddit",
+     "text": "It's 4 and I'm not worried about taking risk I just want to maximise profit since I've stopped investing in stocks since some time and have grown my investment amount in MFs. Also it's not about not investing but rather doing lumpsum which is more risky if you"
+    },
+    {
+     "record_id": "R1087",
+     "platform": "Reddit",
+     "text": "Continuing with SIP and putting in some lump sum as well."
+    }
+   ]
+  },
+  "T15": {
+   "label": "Fund choice, comparison and switching",
+   "questions": [
+    "Q4",
+    "Q5"
+   ],
+   "n": 407,
+   "n_authors": 349,
+   "share": 0.2159,
+   "ci": [
+    0.1984,
+    0.234
+   ],
+   "weighted": 285.77,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "Medium",
+    "ReLakhs",
+    "Reddit",
+    "Substack",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 12,
+   "firsthand": 243,
+   "neg_share": 0.101,
+   "at_risk_share": 0.002,
+   "quotes": [
+    {
+     "record_id": "R0006",
+     "platform": "Google Play",
+     "text": "Groww is very easy to use compared to many apps, which I really like. However, there is no separate category or dedicated section for International Mutual Funds, making it difficult to find all available funds. I\u2019ve also noticed that international funds curren"
+    },
+    {
+     "record_id": "R0166",
+     "platform": "Google Play",
+     "text": "This app is becoming from good to poor grade . previously we are able to see all the ratios of mf , but now only expense ratio available. 1 person found this review helpful"
+    },
+    {
+     "record_id": "R0569",
+     "platform": "Google Play",
+     "text": "Big disappointing me 3 sal se sip kar rha tha or sb shi Chal rha tha pr jbse inkaa MF Prime aaya h vo meri sabse badi galti thi usme phle to meri auto Sip kam ki bina permission or 10-12 bar switch krne ko bola kr bi diya mere chune Sip ko poor bta kr auto swi"
+    },
+    {
+     "record_id": "R0631",
+     "platform": "Google Play",
+     "text": "Very limited data & available like: - Not able to download my sip transaction history - In specific fund page, chart \ud83d\udcc8 is too simple and limited - On fund page, only 5year CAGR & and fund portfolio data available. I urge @Zerodha to at least add mutual fund fu"
+    },
+    {
+     "record_id": "R0664",
+     "platform": "Google Play",
+     "text": "Coin is excellent for mutual fund investments\u2014no ads, no glitches, fully reliable. Two simple suggestions: 1) Wallet/Funds Integration for SIPs: Add an option like Kite's funds to pay SIPs or buy direct from Coin wallet (avoid mandatory bank mandates, which ar"
+    },
+    {
+     "record_id": "R0697",
+     "platform": "Google Play",
+     "text": "Amazing experience to invest in direct mutual funds with zero commission. Sadly NRI s in the gulf and other countries cannot invest using their nre accounts. That's the only drawback. Otherwise, superb, I hope pausing sips , and creating swps and shifting from"
+    }
+   ]
+  },
+  "T16": {
+   "label": "Money access & support failures erode trust",
+   "questions": [
+    "Q4"
+   ],
+   "n": 135,
+   "n_authors": 132,
+   "share": 0.0716,
+   "ci": [
+    0.0605,
+    0.0833
+   ],
+   "weighted": 128.1,
+   "platforms": [
+    "BasuNivesh",
+    "Google Play",
+    "Reddit",
+    "TradingQnA",
+    "YouTube"
+   ],
+   "n_platforms": 5,
+   "firsthand": 130,
+   "neg_share": 0.896,
+   "at_risk_share": 0.022,
+   "quotes": [
+    {
+     "record_id": "R0005",
+     "platform": "Google Play",
+     "text": "My bank account has been blocked due to an unexpected transaction from Groww. I did not initiate or withdraw any money, yet funds were automatically credited to my account. It has been almost a month, and my account is still blocked. As a result, my EMI and SI"
+    },
+    {
+     "record_id": "R0025",
+     "platform": "Google Play",
+     "text": "I have been investing in mutual funds through Groww, but my experience has been disappointing. When I tried to withdraw my money, I never received the OTP required for verification. Despite multiple follow-ups, the issue was not resolved, and customer support "
+    },
+    {
+     "record_id": "R0071",
+     "platform": "Google Play",
+     "text": "Very worst experience. No support from the customer service. I have sent mail also no reply. I thought of saving in MF's. By this experience I will not invest any. worst app..already mailed no use"
+    },
+    {
+     "record_id": "R0101",
+     "platform": "Google Play",
+     "text": "Started using Groww for mutual funds and stocks just 2 days ago, and already disappointed. There are hidden charges on small, small services that aren't clearly disclosed upfront \u2014 feels misleading for a new user. On top of that, the app isn't very convenient "
+    },
+    {
+     "record_id": "R0216",
+     "platform": "Google Play",
+     "text": "At first it felt good as its very easy to buy an sip without paying commission, but don't know it was a glitch but 2 duplicate sip were created and amount was deducted from my account. When reported the support was not that helpful. They don't even have an opt"
+    },
+    {
+     "record_id": "R0220",
+     "platform": "Google Play",
+     "text": "i using it for around 2 month's and i invested on a cap fund it goes up and I got 549 but when I redeem it i goes down and down and I got only 525. what is happening. then i mind to deleted my account from this app."
+    }
+   ]
+  },
+  "T17": {
+   "label": "SIP admin overhead (end dates, many SIPs, multi-account)",
+   "questions": [
+    "Q2",
+    "Q8"
+   ],
+   "n": 120,
+   "n_authors": 111,
+   "share": 0.0637,
+   "ci": [
+    0.053,
+    0.0748
+   ],
+   "weighted": 93.83,
+   "platforms": [
+    "Article",
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "ReLakhs",
+    "Reddit",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 10,
+   "firsthand": 78,
+   "neg_share": 0.292,
+   "at_risk_share": 0.0,
+   "quotes": [
+    {
+     "record_id": "R0470",
+     "platform": "Google Play",
+     "text": "Best App I came across. UI is good and easy to navigate logically. The only thing missing is consolidated Mutual Funds transactions to get an easy & quick view of all SIPs, lump sum done so far in one window."
+    },
+    {
+     "record_id": "R0490",
+     "platform": "Google Play",
+     "text": "issue in linking my external sips"
+    },
+    {
+     "record_id": "R0491",
+     "platform": "Google Play",
+     "text": "The UI/UX are confusing. The terminology around Indian stocks, specifically INDstock versus IND Stocks is unclear. It's difficult to find mutual funds purchased through INDmoney. Also, SIP management is poor. Overall, the platform is cluttered, negatively impa"
+    },
+    {
+     "record_id": "R0493",
+     "platform": "Google Play",
+     "text": "Though they have tried but failed in many ways too. Mutual funds holdings portfolio sync is not as per MF central holdings. There is no option to track daily RD and daily gold/silver SIP."
+    },
+    {
+     "record_id": "R0494",
+     "platform": "Google Play",
+     "text": "the app is good, however m giving 2 star for below 1) you don't have option to download holding statement for MFs and nor backend team can support you on this 2) they don't have feature for daily SIP. while they used to have but now only providing this feature"
+    },
+    {
+     "record_id": "R0498",
+     "platform": "Google Play",
+     "text": "App watchlist is not syncing with website watchlist as I have only 4 watchlist in app but in website it is showing 6 watchlist. And try to add some features in watchlist like position changing from 3rd position I want a particular watchlist in 1st position. De"
+    }
+   ]
+  },
+  "T18": {
+   "label": "Shifting money elsewhere (US, gold, debt, FD)",
+   "questions": [
+    "Q1",
+    "Q2"
+   ],
+   "n": 120,
+   "n_authors": 111,
+   "share": 0.0637,
+   "ci": [
+    0.0531,
+    0.0753
+   ],
+   "weighted": 93.24,
+   "platforms": [
+    "BasuNivesh",
+    "Freefincal",
+    "Google Play",
+    "Jagoinvestor",
+    "ReLakhs",
+    "Reddit",
+    "TradingQnA",
+    "ValuePickr",
+    "YouTube"
+   ],
+   "n_platforms": 9,
+   "firsthand": 83,
+   "neg_share": 0.475,
+   "at_risk_share": 0.033,
+   "quotes": [
+    {
+     "record_id": "R0266",
+     "platform": "Reddit",
+     "text": "Not really man. You can definitely learn and invest. It's your hard earned money. SIP gives you discipline to save and invest. After 18 months, I stopped it in Indian equities, and started learning about the market and soon realized diversification is the key."
+    },
+    {
+     "record_id": "R0510",
+     "platform": "Google Play",
+     "text": "The app and interface is pretty good. I used to use et money earlier but now I feel it has become cluttered. The only issue for me is that im not able to edit my SIP since one month. It's always showing coming soon. As a result im compelled to move to et money"
+    },
+    {
+     "record_id": "R0523",
+     "platform": "Google Play",
+     "text": "Very bad experience, SIP not getting set up. i waited amost 30 min to set up sip in mutual fund. Groww application is far better than this app"
+    },
+    {
+     "record_id": "R0542",
+     "platform": "Google Play",
+     "text": "SIP mandates are not executed or are executed for amount other than mandate amount. With no timeline for resolution to the issues raised with customer service the investor is bound to lose on the value of money invested. Better to invest directly with mutual f"
+    },
+    {
+     "record_id": "R0561",
+     "platform": "Google Play",
+     "text": "Groww may have a simple and user-friendly interface, but that doesn't mean it offers everything that serious, long-term investors need. Zerodha Coin provides features like quarterly SIPs and AMC SIPs, which I couldn't find on Groww. This lack of flexibility is"
+    },
+    {
+     "record_id": "R0609",
+     "platform": "Google Play",
+     "text": "worst app to invest your mutual funds, I am not getting a proper response from groww customer care regarding my 2nd SIP due date(not able to pay manually) they have created 2 ticket with same query but resolution is not provided yet it's been more than 48 hour"
+    }
+   ]
+  }
+ },
+ "cooccurrence": {
+  "ids": [
+   "T01",
+   "T02",
+   "T03",
+   "T04",
+   "T05",
+   "T06",
+   "T07",
+   "T08",
+   "T09",
+   "T10",
+   "T11",
+   "T12",
+   "T13",
+   "T14",
+   "T15",
+   "T16",
+   "T17",
+   "T18"
+  ],
+  "matrix": [
+   [
+    113,
+    27,
+    9,
+    0,
+    0,
+    0,
+    5,
+    4,
+    2,
+    5,
+    11,
+    12,
+    14,
+    6,
+    37,
+    1,
+    2,
+    14
+   ],
+   [
+    27,
+    54,
+    6,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    3,
+    14,
+    3,
+    4,
+    8,
+    0,
+    0,
+    5
+   ],
+   [
+    9,
+    6,
+    73,
+    3,
+    1,
+    0,
+    2,
+    0,
+    2,
+    12,
+    3,
+    17,
+    8,
+    13,
+    5,
+    3,
+    2,
+    7
+   ],
+   [
+    0,
+    2,
+    3,
+    48,
+    10,
+    0,
+    0,
+    0,
+    0,
+    3,
+    1,
+    8,
+    6,
+    6,
+    1,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    0,
+    1,
+    10,
+    143,
+    24,
+    10,
+    0,
+    0,
+    2,
+    0,
+    4,
+    3,
+    6,
+    5,
+    16,
+    13,
+    5
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    24,
+    236,
+    24,
+    5,
+    1,
+    2,
+    2,
+    2,
+    0,
+    1,
+    3,
+    65,
+    18,
+    13
+   ],
+   [
+    5,
+    0,
+    2,
+    0,
+    10,
+    24,
+    153,
+    9,
+    0,
+    11,
+    10,
+    4,
+    3,
+    4,
+    44,
+    17,
+    4,
+    24
+   ],
+   [
+    4,
+    1,
+    0,
+    0,
+    0,
+    5,
+    9,
+    93,
+    1,
+    4,
+    2,
+    4,
+    3,
+    5,
+    10,
+    4,
+    8,
+    3
+   ],
+   [
+    2,
+    1,
+    2,
+    0,
+    0,
+    1,
+    0,
+    1,
+    19,
+    3,
+    1,
+    7,
+    1,
+    2,
+    3,
+    0,
+    2,
+    1
+   ],
+   [
+    5,
+    3,
+    12,
+    3,
+    2,
+    2,
+    11,
+    4,
+    3,
+    128,
+    4,
+    22,
+    10,
+    12,
+    48,
+    1,
+    2,
+    4
+   ],
+   [
+    11,
+    3,
+    3,
+    1,
+    0,
+    2,
+    10,
+    2,
+    1,
+    4,
+    68,
+    2,
+    1,
+    2,
+    1,
+    4,
+    0,
+    8
+   ],
+   [
+    12,
+    14,
+    17,
+    8,
+    4,
+    2,
+    4,
+    4,
+    7,
+    22,
+    2,
+    242,
+    37,
+    55,
+    33,
+    0,
+    0,
+    8
+   ],
+   [
+    14,
+    3,
+    8,
+    6,
+    3,
+    0,
+    3,
+    3,
+    1,
+    10,
+    1,
+    37,
+    211,
+    21,
+    99,
+    0,
+    13,
+    9
+   ],
+   [
+    6,
+    4,
+    13,
+    6,
+    6,
+    1,
+    4,
+    5,
+    2,
+    12,
+    2,
+    55,
+    21,
+    213,
+    30,
+    0,
+    5,
+    11
+   ],
+   [
+    37,
+    8,
+    5,
+    1,
+    5,
+    3,
+    44,
+    10,
+    3,
+    48,
+    1,
+    33,
+    99,
+    30,
+    407,
+    2,
+    26,
+    13
+   ],
+   [
+    1,
+    0,
+    3,
+    0,
+    16,
+    65,
+    17,
+    4,
+    0,
+    1,
+    4,
+    0,
+    0,
+    0,
+    2,
+    135,
+    6,
+    10
+   ],
+   [
+    2,
+    0,
+    2,
+    0,
+    13,
+    18,
+    4,
+    8,
+    2,
+    2,
+    0,
+    0,
+    13,
+    5,
+    26,
+    6,
+    120,
+    5
+   ],
+   [
+    14,
+    5,
+    7,
+    2,
+    5,
+    13,
+    24,
+    3,
+    1,
+    4,
+    8,
+    8,
+    9,
+    11,
+    13,
+    10,
+    5,
+    120
+   ]
+  ]
+ },
+ "stance": {
+  "n": {
+   "unclear": 1576,
+   "opinion: pro-continuation": 146,
+   "opinion: sceptical": 128,
+   "self: continuing": 17,
+   "self: paused / stopped / at-risk": 12,
+   "self: stopped then resumed / mixed": 6
+  },
+  "lenses": {
+   "behaviour": {
+    "a": "self: continuing",
+    "b": "self: paused / stopped / at-risk",
+    "na": 17,
+    "nb": 12,
+    "rows": [
+     {
+      "theme": "T12",
+      "label": "Habit, discipline and long-horizon framing (continuers)",
+      "a": 0.529,
+      "b": 0.083,
+      "diff": -0.446,
+      "na": 9,
+      "nb": 1
+     },
+     {
+      "theme": "T02",
+      "label": "No visible progress / flat NAV / boredom",
+      "a": 0.0,
+      "b": 0.333,
+      "diff": 0.333,
+      "na": 0,
+      "nb": 4
+     },
+     {
+      "theme": "T16",
+      "label": "Money access & support failures erode trust",
+      "a": 0.0,
+      "b": 0.25,
+      "diff": 0.25,
+      "na": 0,
+      "nb": 3
+     },
+     {
+      "theme": "T05",
+      "label": "Can't pause / skip / change date flexibly",
+      "a": 0.0,
+      "b": 0.167,
+      "diff": 0.167,
+      "na": 0,
+      "nb": 2
+     },
+     {
+      "theme": "T18",
+      "label": "Shifting money elsewhere (US, gold, debt, FD)",
+      "a": 0.0,
+      "b": 0.167,
+      "diff": 0.167,
+      "na": 0,
+      "nb": 2
+     },
+     {
+      "theme": "T08",
+      "label": "Return metrics confusing (XIRR, NAV date, sale value)",
+      "a": 0.235,
+      "b": 0.083,
+      "diff": -0.152,
+      "na": 4,
+      "nb": 1
+     },
+     {
+      "theme": "T13",
+      "label": "Goal clarity / purpose of the money",
+      "a": 0.118,
+      "b": 0.0,
+      "diff": -0.118,
+      "na": 2,
+      "nb": 0
+     },
+     {
+      "theme": "T15",
+      "label": "Fund choice, comparison and switching",
+      "a": 0.118,
+      "b": 0.0,
+      "diff": -0.118,
+      "na": 2,
+      "nb": 0
+     },
+     {
+      "theme": "T01",
+      "label": "Returns below expectation / 'SIP isn't working'",
+      "a": 0.235,
+      "b": 0.333,
+      "diff": 0.098,
+      "na": 4,
+      "nb": 4
+     },
+     {
+      "theme": "T03",
+      "label": "Market-fall fear / loss aversion",
+      "a": 0.0,
+      "b": 0.083,
+      "diff": 0.083,
+      "na": 0,
+      "nb": 1
+     },
+     {
+      "theme": "T04",
+      "label": "Income or life shock (job loss, medical, home, wedding)",
+      "a": 0.0,
+      "b": 0.083,
+      "diff": 0.083,
+      "na": 0,
+      "nb": 1
+     },
+     {
+      "theme": "T17",
+      "label": "SIP admin overhead (end dates, many SIPs, multi-account)",
+      "a": 0.059,
+      "b": 0.0,
+      "diff": -0.059,
+      "na": 1,
+      "nb": 0
+     },
+     {
+      "theme": "T07",
+      "label": "Fees, exit load and charges unclear",
+      "a": 0.059,
+      "b": 0.083,
+      "diff": 0.025,
+      "na": 1,
+      "nb": 1
+     },
+     {
+      "theme": "T14",
+      "label": "Lump-sum / dip-buying decision paralysis",
+      "a": 0.059,
+      "b": 0.083,
+      "diff": 0.025,
+      "na": 1,
+      "nb": 1
+     },
+     {
+      "theme": "T06",
+      "label": "Mandate / auto-debit / SIP payment failures",
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "na": 0,
+      "nb": 0
+     },
+     {
+      "theme": "T09",
+      "label": "Checking behaviour / monitoring stress",
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "na": 0,
+      "nb": 0
+     },
+     {
+      "theme": "T10",
+      "label": "Seeks reassurance / advice outside the app",
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "na": 0,
+      "nb": 0
+     },
+     {
+      "theme": "T11",
+      "label": "Distrust of market, funds or intermediaries",
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "na": 0,
+      "nb": 0
+     }
+    ],
+    "ex_a": [
+     {
+      "record_id": "R0263",
+      "platform": "Reddit",
+      "text": "Also builds the discipline of \u2018savings\u2019 to those who struggle to save. Best example is my father. He does not save and spend everything as he earns. So I set up SIPs of \u20b95k every month and it has now become a habit for him. I some"
+     },
+     {
+      "record_id": "R0274",
+      "platform": "Reddit",
+      "text": "I did not create my MF portfolio due to those youtubers, i did because i genuinely saw a increment in wealth there. and agree or not, the sip does actually give you a 8-12% return every year (barring a year like this) so yes, you "
+     },
+     {
+      "record_id": "R0279",
+      "platform": "Reddit",
+      "text": "Reads like AI crap yet again. Yes, SIPs work if done for the long term. My CAGR is better than FD, though my debt portfolio is doing better than stocks. Equity also has lesser taxation and higher growth potential. Equity is not fo"
+     },
+     {
+      "record_id": "R0290",
+      "platform": "Reddit",
+      "text": "Yesterday was exactly one year since I began my sips, my total returns are at 4.8% and XIRR is at 9% (it was 14% two weeks ago), even in this bear market I am comfortably breaking FD returns, plus I am accumulating units for when "
+     },
+     {
+      "record_id": "R0291",
+      "platform": "Reddit",
+      "text": "First few years sip xirr will be volatile. My first 2 years XIRR was 40-50% and now it's 7%. Total 4 years."
+     },
+     {
+      "record_id": "R0292",
+      "platform": "Reddit",
+      "text": "My 5-6 year XIRR on both stocks + MF combined averages to around 20.xx % returns"
+     },
+     {
+      "record_id": "R0293",
+      "platform": "Reddit",
+      "text": "My XIRR is 10%."
+     },
+     {
+      "record_id": "R0297",
+      "platform": "Reddit",
+      "text": "For me its quant and mirae , let me know if u need there qualified names"
+     }
+    ],
+    "ex_b": [
+     {
+      "record_id": "R0071",
+      "platform": "Google Play",
+      "text": "Very worst experience. No support from the customer service. I have sent mail also no reply. I thought of saving in MF's. By this experience I will not invest any. worst app..already mailed no use"
+     },
+     {
+      "record_id": "R0101",
+      "platform": "Google Play",
+      "text": "Started using Groww for mutual funds and stocks just 2 days ago, and already disappointed. There are hidden charges on small, small services that aren't clearly disclosed upfront \u2014 feels misleading for a new user. On top of that, "
+     },
+     {
+      "record_id": "R0128",
+      "platform": "Google Play",
+      "text": "Allow us to pause SIPs indefinitely. Currently you can skip 1 installment or cancel completely but I just want to pause for a few months."
+     },
+     {
+      "record_id": "R0220",
+      "platform": "Google Play",
+      "text": "i using it for around 2 month's and i invested on a cap fund it goes up and I got 549 but when I redeem it i goes down and down and I got only 525. what is happening. then i mind to deleted my account from this app."
+     },
+     {
+      "record_id": "R0306",
+      "platform": "Reddit",
+      "text": "Thats not how investing works, SIP by definition means when the market falls you get the opportunity to average down Continuously averaging down only works in an overall long term bull cycles with small bear cycles in between. The"
+     },
+     {
+      "record_id": "R0313",
+      "platform": "Reddit",
+      "text": "Personally nifty will give less return than fd till 2030. So shifting more to debt."
+     },
+     {
+      "record_id": "R0318",
+      "platform": "Reddit",
+      "text": "I\u2019ve been procrastinating but I\u2019m gonna stop now, FD would have given better returns in past 2 years"
+     },
+     {
+      "record_id": "R0342",
+      "platform": "Reddit",
+      "text": "Stopped SIPs in the Indian market a year earlier. Says the absence of returns over the last year made them glad they stopped."
+     }
+    ]
+   },
+   "attitude": {
+    "a": "opinion: pro-continuation",
+    "b": "opinion: sceptical",
+    "na": 146,
+    "nb": 128,
+    "rows": [
+     {
+      "theme": "T12",
+      "label": "Habit, discipline and long-horizon framing (continuers)",
+      "a": 0.801,
+      "b": 0.039,
+      "diff": -0.762,
+      "na": 117,
+      "nb": 5
+     },
+     {
+      "theme": "T11",
+      "label": "Distrust of market, funds or intermediaries",
+      "a": 0.014,
+      "b": 0.375,
+      "diff": 0.361,
+      "na": 2,
+      "nb": 48
+     },
+     {
+      "theme": "T01",
+      "label": "Returns below expectation / 'SIP isn't working'",
+      "a": 0.034,
+      "b": 0.328,
+      "diff": 0.294,
+      "na": 5,
+      "nb": 42
+     },
+     {
+      "theme": "T02",
+      "label": "No visible progress / flat NAV / boredom",
+      "a": 0.048,
+      "b": 0.156,
+      "diff": 0.108,
+      "na": 7,
+      "nb": 20
+     },
+     {
+      "theme": "T18",
+      "label": "Shifting money elsewhere (US, gold, debt, FD)",
+      "a": 0.034,
+      "b": 0.117,
+      "diff": 0.083,
+      "na": 5,
+      "nb": 15
+     },
+     {
+      "theme": "T15",
+      "label": "Fund choice, comparison and switching",
+      "a": 0.096,
+      "b": 0.031,
+      "diff": -0.065,
+      "na": 14,
+      "nb": 4
+     },
+     {
+      "theme": "T14",
+      "label": "Lump-sum / dip-buying decision paralysis",
+      "a": 0.212,
+      "b": 0.148,
+      "diff": -0.064,
+      "na": 31,
+      "nb": 19
+     },
+     {
+      "theme": "T13",
+      "label": "Goal clarity / purpose of the money",
+      "a": 0.123,
+      "b": 0.062,
+      "diff": -0.061,
+      "na": 18,
+      "nb": 8
+     },
+     {
+      "theme": "T07",
+      "label": "Fees, exit load and charges unclear",
+      "a": 0.041,
+      "b": 0.07,
+      "diff": 0.029,
+      "na": 6,
+      "nb": 9
+     },
+     {
+      "theme": "T10",
+      "label": "Seeks reassurance / advice outside the app",
+      "a": 0.068,
+      "b": 0.039,
+      "diff": -0.029,
+      "na": 10,
+      "nb": 5
+     },
+     {
+      "theme": "T09",
+      "label": "Checking behaviour / monitoring stress",
+      "a": 0.027,
+      "b": 0.008,
+      "diff": -0.02,
+      "na": 4,
+      "nb": 1
+     },
+     {
+      "theme": "T03",
+      "label": "Market-fall fear / loss aversion",
+      "a": 0.075,
+      "b": 0.094,
+      "diff": 0.018,
+      "na": 11,
+      "nb": 12
+     },
+     {
+      "theme": "T16",
+      "label": "Money access & support failures erode trust",
+      "a": 0.0,
+      "b": 0.016,
+      "diff": 0.016,
+      "na": 0,
+      "nb": 2
+     },
+     {
+      "theme": "T04",
+      "label": "Income or life shock (job loss, medical, home, wedding)",
+      "a": 0.041,
+      "b": 0.039,
+      "diff": -0.002,
+      "na": 6,
+      "nb": 5
+     },
+     {
+      "theme": "T05",
+      "label": "Can't pause / skip / change date flexibly",
+      "a": 0.014,
+      "b": 0.016,
+      "diff": 0.002,
+      "na": 2,
+      "nb": 2
+     },
+     {
+      "theme": "T08",
+      "label": "Return metrics confusing (XIRR, NAV date, sale value)",
+      "a": 0.014,
+      "b": 0.016,
+      "diff": 0.002,
+      "na": 2,
+      "nb": 2
+     },
+     {
+      "theme": "T06",
+      "label": "Mandate / auto-debit / SIP payment failures",
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "na": 0,
+      "nb": 0
+     },
+     {
+      "theme": "T17",
+      "label": "SIP admin overhead (end dates, many SIPs, multi-account)",
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "na": 0,
+      "nb": 0
+     }
+    ],
+    "ex_a": [
+     {
+      "record_id": "R0261",
+      "platform": "Reddit",
+      "text": "Systematic Investment Plan is forever valid, moreso during a bear phase when every installment yields you more units than previous. If folks were into SIP only to get constant returns greater than FD, equity was never meant for th"
+     },
+     {
+      "record_id": "R0262",
+      "platform": "Reddit",
+      "text": "Isint the concept of SIP tells investing through all phases of cycle wherein ultimately you average out...those suggesting to stop sip now for people who have already invested in highs is a crime...how will they recover....SIP is "
+     },
+     {
+      "record_id": "R0265",
+      "platform": "Reddit",
+      "text": "SIPs are also the easiest way to invest for salaried people. Aside from maybe RDs."
+     },
+     {
+      "record_id": "R0272",
+      "platform": "Reddit",
+      "text": "Was the SIP success story mostly a result of a strong market cycle rather than the SIP itself? Do you even know what an SIP is? It is just a way to buy assets on a monthly basis.There's no such thing as. SIP succeeding, only the m"
+     },
+     {
+      "record_id": "R0273",
+      "platform": "Reddit",
+      "text": "Trust the sip, not every year will give 15-20% returns. But it will avg out over 5-10 yrs. More imp to buy at the dip - covid being the last example where ppl made multifold returns"
+     },
+     {
+      "record_id": "R0276",
+      "platform": "Reddit",
+      "text": "Which brand was actually promoting SIPs and where are they now? Data says 90% of SIP investors take down their SIPs in first three years. AUM is always on a cuckoo valuations for the brand to flex their AUM SIPs are always slightl"
+     },
+     {
+      "record_id": "R0278",
+      "platform": "Reddit",
+      "text": "The concept of SIP isn\u2019t dead but you need to do across - Indian equities, foreign equities and gold etc"
+     },
+     {
+      "record_id": "R0283",
+      "platform": "Reddit",
+      "text": "I think a lot of investors entered during a strong bull market and assumed 15\u201320% annual returns were normal. The real test of an SIP is how people react during flat or declining markets."
+     }
+    ],
+    "ex_b": [
+     {
+      "record_id": "R0264",
+      "platform": "Reddit",
+      "text": "Unless people advocate the SIP propaganda, how will these endless fund house will do the business? No one has ever became rich by SIPs, you can only be rich by increasing the income and investments which grows significantly (SIP i"
+     },
+     {
+      "record_id": "R0267",
+      "platform": "Reddit",
+      "text": "All I am saying discipline (SIP) gives you nothing unless you appreciate the risk and reward with it. See for example the Japanese index Nikkei 225. It gave zero/minimal returns over several decades (does not matter SIP or lumpsum"
+     },
+     {
+      "record_id": "R0268",
+      "platform": "Reddit",
+      "text": "Yep. It's all your luck man. Imagine people that were invested in Nikkei for 10 years and then pulled out money before the crazy boom."
+     },
+     {
+      "record_id": "R0271",
+      "platform": "Reddit",
+      "text": "Let's be logical about it. SIP is not a magic wand. It is a disciplined way of automated investment strategy. We buy more units during the decline and less units during the rise. This doesn't necessarily take into account market c"
+     },
+     {
+      "record_id": "R0277",
+      "platform": "Reddit",
+      "text": "Sip from what I researched is not the one people and finfulencers promoted systamatic investment plan is not blindly putting away a certain amount to AMCs . But a plan that has entry and exit strategy planning risk management, for"
+     },
+     {
+      "record_id": "R0280",
+      "platform": "Reddit",
+      "text": "Sip is a scam which only helps traders fii and promoters to exit at will at higher levels. And dii insiders are connected with the traders promoters and fii and work in sync."
+     },
+     {
+      "record_id": "R0282",
+      "platform": "Reddit",
+      "text": "I think the negativity around sips stems from the fact such a large amount of money from domestic investors (through sips)being put in monthly has helped the promoters/vc/pe funds and FIIs to cash out with great returns .Anecdotal"
+     },
+     {
+      "record_id": "R0287",
+      "platform": "Reddit",
+      "text": "It was always a rip off. It simply says price of a tomato is 150 and you are ok to buy it because it will be worth 250 tomorrow anyway."
+     }
+    ]
+   }
+  }
+ },
+ "segments": [
+  {
+   "segment": "income: unstable / shock",
+   "n": 7,
+   "stance": {
+    "unclear": 4,
+    "self: stopped then resumed / mixed": 1,
+    "opinion: sceptical": 1,
+    "self: paused / stopped / at-risk": 1
+   },
+   "top_themes": [
+    [
+     "T04",
+     0.714
+    ],
+    [
+     "T03",
+     0.143
+    ],
+    [
+     "T05",
+     0.143
+    ],
+    [
+     "T06",
+     0.143
+    ]
+   ],
+   "usable": true,
+   "examples": [
+    {
+     "record_id": "R0005",
+     "text": "My bank account has been blocked due to an unexpected transaction from Groww. I did not initiate or withdraw any money, yet funds were automatically credited to my account. It has been almost a month,"
+    },
+    {
+     "record_id": "R0015",
+     "text": "Giving 1 star just because I tried a lot to skip my sips for a month and it shows it can be done 2 days before sip date, but even before 2 days it doesn't work. I recently got operated on my knee and "
+    },
+    {
+     "record_id": "R0350",
+     "text": "Attributes weaker investing to lack of income, IT layoffs and fear, while criticising mutual fund companies for continuing to profit."
+    }
+   ]
+  },
+  {
+   "segment": "income: salaried",
+   "n": 48,
+   "stance": {
+    "unclear": 34,
+    "opinion: pro-continuation": 11,
+    "opinion: sceptical": 3
+   },
+   "top_themes": [
+    [
+     "T12",
+     0.354
+    ],
+    [
+     "T13",
+     0.229
+    ],
+    [
+     "T15",
+     0.229
+    ],
+    [
+     "T14",
+     0.167
+    ]
+   ],
+   "usable": true,
+   "examples": [
+    {
+     "record_id": "R0005",
+     "text": "My bank account has been blocked due to an unexpected transaction from Groww. I did not initiate or withdraw any money, yet funds were automatically credited to my account. It has been almost a month,"
+    },
+    {
+     "record_id": "R0265",
+     "text": "SIPs are also the easiest way to invest for salaried people. Aside from maybe RDs."
+    },
+    {
+     "record_id": "R0446",
+     "text": "Objects to investing merely because a salary arrived."
+    }
+   ]
+  },
+  {
+   "segment": "money: savings / surplus",
+   "n": 53,
+   "stance": {
+    "unclear": 41,
+    "opinion: pro-continuation": 9,
+    "self: continuing": 2,
+    "opinion: sceptical": 1
+   },
+   "top_themes": [
+    [
+     "T13",
+     0.321
+    ],
+    [
+     "T15",
+     0.321
+    ],
+    [
+     "T14",
+     0.245
+    ],
+    [
+     "T12",
+     0.208
+    ]
+   ],
+   "usable": true,
+   "examples": [
+    {
+     "record_id": "R0263",
+     "text": "Also builds the discipline of \u2018savings\u2019 to those who struggle to save. Best example is my father. He does not save and spend everything as he earns. So I set up SIPs of \u20b95k every month and it has now "
+    },
+    {
+     "record_id": "R0329",
+     "text": "That is why you only invest with you disposable income, if I have 50k disposable income every month I wont mind putting the money up again if the market goes cheaper India is a growing economy, you ha"
+    },
+    {
+     "record_id": "R0359",
+     "text": "Says low- and middle-income households have little savings and some younger people favour present consumption over saving."
+    }
+   ]
+  },
+  {
+   "segment": "influence: family",
+   "n": 42,
+   "stance": {
+    "unclear": 30,
+    "opinion: pro-continuation": 9,
+    "self: continuing": 2,
+    "opinion: sceptical": 1
+   },
+   "top_themes": [
+    [
+     "T13",
+     0.286
+    ],
+    [
+     "T15",
+     0.262
+    ],
+    [
+     "T12",
+     0.238
+    ],
+    [
+     "T10",
+     0.167
+    ]
+   ],
+   "usable": true,
+   "examples": [
+    {
+     "record_id": "R0263",
+     "text": "Also builds the discipline of \u2018savings\u2019 to those who struggle to save. Best example is my father. He does not save and spend everything as he earns. So I set up SIPs of \u20b95k every month and it has now "
+    },
+    {
+     "record_id": "R0459",
+     "text": "Funds about eight family accounts for around 20 SIPs on different dates, which is cumbersome. Says return calculations are complicated because investments occur at different dates and NAVs. Regular SI"
+    },
+    {
+     "record_id": "R0729",
+     "text": "\u200bAs a Day-1 ET Money Genius user, I'm deeply disappointed. They heavily marketed \"the biggest upgrade ever,\" but paywalled basic mutual fund strategy improvements inside an expensive higher plan bundl"
+    }
+   ]
+  },
+  {
+   "segment": "influence: creators / finfluencers",
+   "n": 95,
+   "stance": {
+    "unclear": 82,
+    "opinion: pro-continuation": 8,
+    "opinion: sceptical": 3,
+    "self: stopped then resumed / mixed": 1,
+    "self: continuing": 1
+   },
+   "top_themes": [
+    [
+     "T10",
+     0.379
+    ],
+    [
+     "T15",
+     0.274
+    ],
+    [
+     "T13",
+     0.137
+    ],
+    [
+     "T07",
+     0.116
+    ]
+   ],
+   "usable": true,
+   "examples": [
+    {
+     "record_id": "R0269",
+     "text": "This is exactly what the finfluencers are peddling now. You have not learnt anything new."
+    },
+    {
+     "record_id": "R0270",
+     "text": "This is my personal opinion. This is what i have learnt. I don't follow any finfluencers. I read books and follow news. Back tested things using ai and have a screenr according to my experiences and w"
+    },
+    {
+     "record_id": "R0274",
+     "text": "I did not create my MF portfolio due to those youtubers, i did because i genuinely saw a increment in wealth there. and agree or not, the sip does actually give you a 8-12% return every year (barring "
+    }
+   ]
+  },
+  {
+   "segment": "age / life stage cue",
+   "n": 102,
+   "stance": {
+    "unclear": 77,
+    "opinion: pro-continuation": 15,
+    "opinion: sceptical": 9,
+    "self: stopped then resumed / mixed": 1
+   },
+   "top_themes": [
+    [
+     "T13",
+     0.657
+    ],
+    [
+     "T15",
+     0.363
+    ],
+    [
+     "T12",
+     0.196
+    ],
+    [
+     "T04",
+     0.127
+    ]
+   ],
+   "usable": true,
+   "examples": [
+    {
+     "record_id": "R0276",
+     "text": "Which brand was actually promoting SIPs and where are they now? Data says 90% of SIP investors take down their SIPs in first three years. AUM is always on a cuckoo valuations for the brand to flex the"
+    },
+    {
+     "record_id": "R0329",
+     "text": "That is why you only invest with you disposable income, if I have 50k disposable income every month I wont mind putting the money up again if the market goes cheaper India is a growing economy, you ha"
+    },
+    {
+     "record_id": "R0330",
+     "text": "India is a growing economy Not really - check the data in the last 12 years. Private investments as a percentage of GDP peaked in 2012-2013. Growth has come mainly through Govt spending through increa"
+    }
+   ]
+  }
+ ],
+ "needs": [
+  {
+   "need": "Access to money & responsive support",
+   "n": 81,
+   "platforms": 7,
+   "consistent": true
+  },
+  {
+   "need": "Reliable payments & reconciliation",
+   "n": 79,
+   "platforms": 5,
+   "consistent": true
+  },
+  {
+   "need": "Realistic return & time expectations",
+   "n": 59,
+   "platforms": 5,
+   "consistent": true
+  },
+  {
+   "need": "Clear costs before acting",
+   "n": 53,
+   "platforms": 6,
+   "consistent": true
+  },
+  {
+   "need": "Flexible contributions (pause/skip/reduce)",
+   "n": 52,
+   "platforms": 6,
+   "consistent": true
+  },
+  {
+   "need": "Guidance on allocation & fund choice",
+   "n": 33,
+   "platforms": 8,
+   "consistent": true
+  },
+  {
+   "need": "Trust in market fairness",
+   "n": 14,
+   "platforms": 4,
+   "consistent": true
+  },
+  {
+   "need": "Conviction & reassurance in downturns",
+   "n": 7,
+   "platforms": 2,
+   "consistent": true
+  },
+  {
+   "need": "Habit & motivation to save",
+   "n": 2,
+   "platforms": 2,
+   "consistent": false
+  }
+ ],
+ "n_needs": 1042,
+ "triggers": {
+  "analyst_tags": {
+   "lack of visible progress": 16,
+   "market fall": 7,
+   "job change": 4,
+   "emergency expense": 2,
+   "confusion about statements": 1
+  },
+  "n_tagged": 27,
+  "at_risk_drivers": {
+   "Returns below expectation / 'SIP isn't working'": 5,
+   "No visible progress / flat NAV / boredom": 4,
+   "Market-fall fear / loss aversion": 1,
+   "Income or life shock (job loss, medical, home, wedding)": 3,
+   "Can't pause / skip / change date flexibly": 3,
+   "Mandate / auto-debit / SIP payment failures": 0,
+   "Distrust of market, funds or intermediaries": 1,
+   "Shifting money elsewhere (US, gold, debt, FD)": 4
+  },
+  "n_at_risk": 18
+ },
+ "opportunities": [
+  {
+   "id": "O1",
+   "name": "Set realistic return expectations and show progress",
+   "themes": [
+    "T01",
+    "T02",
+    "T08"
+   ],
+   "n": 229,
+   "reach": 0.121,
+   "risk_cover": 0.525,
+   "n_risk_set": 40,
+   "retention_link": 0.192,
+   "trigger_share": 0.079,
+   "platforms": 11,
+   "firsthand": 0.45,
+   "reach_s": 2.39,
+   "link_s": 2.54,
+   "control": 4,
+   "confidence": 5,
+   "score": 121.2,
+   "idea": "Onboarding 'what to expect' by horizon; units-accumulated and 'bought cheaper this month' views; XIRR explainer that says early XIRR swings are normal.",
+   "metric": "Share of month 3-12 SIPs cancelled within 7 days of a negative-return portfolio view",
+   "score_norm": 100
+  },
+  {
+   "id": "O7",
+   "name": "Give trusted guidance in the app",
+   "themes": [
+    "T10",
+    "T14",
+    "T15",
+    "T11"
+   ],
+   "n": 722,
+   "reach": 0.383,
+   "risk_cover": 0.2,
+   "n_risk_set": 40,
+   "retention_link": 0.059,
+   "trigger_share": 0.007,
+   "platforms": 12,
+   "firsthand": 0.496,
+   "reach_s": 5,
+   "link_s": 1.47,
+   "control": 3,
+   "confidence": 5,
+   "score": 110.3,
+   "idea": "Plain-language fund comparison, 'what to do with extra cash' rule, myth-busting on SIP 'scam' claims, transparent costs of intermediaries.",
+   "metric": "Off-app research sessions (self-reported) and fund-switch rate in first 6 months",
+   "score_norm": 91
+  },
+  {
+   "id": "O6",
+   "name": "Link each SIP to a goal and build the habit",
+   "themes": [
+    "T13",
+    "T12"
+   ],
+   "n": 416,
+   "reach": 0.221,
+   "risk_cover": 0.175,
+   "n_risk_set": 40,
+   "retention_link": 0.029,
+   "trigger_share": 0.01,
+   "platforms": 12,
+   "firsthand": 0.495,
+   "reach_s": 3.52,
+   "link_s": 1.23,
+   "control": 4,
+   "confidence": 5,
+   "score": 86.7,
+   "idea": "Attach every first SIP to a named goal and horizon; streaks and milestone moments at months 3, 6, 12.",
+   "metric": "12-month active rate: goal-tagged vs untagged first SIPs",
+   "score_norm": 72
+  },
+  {
+   "id": "O4",
+   "name": "Make auto-debit reliable and payment status clear",
+   "themes": [
+    "T06",
+    "T17"
+   ],
+   "n": 338,
+   "reach": 0.179,
+   "risk_cover": 0.025,
+   "n_risk_set": 40,
+   "retention_link": 0.003,
+   "trigger_share": 0.003,
+   "platforms": 11,
+   "firsthand": 0.722,
+   "reach_s": 3.05,
+   "link_s": 1.02,
+   "control": 5,
+   "confidence": 5,
+   "score": 78.0,
+   "idea": "Proactive failed-mandate recovery, 'debited, units on date X' tracker, end-date and bank-change alerts, duplicate-SIP guard.",
+   "metric": "Involuntary churn: SIPs lapsing after \u22652 failed debits",
+   "score_norm": 64
+  },
+  {
+   "id": "O2",
+   "name": "Offer pause, skip or reduce instead of cancel",
+   "themes": [
+    "T05",
+    "T04"
+   ],
+   "n": 181,
+   "reach": 0.096,
+   "risk_cover": 0.225,
+   "n_risk_set": 40,
+   "retention_link": 0.061,
+   "trigger_share": 0.028,
+   "platforms": 9,
+   "firsthand": 0.575,
+   "reach_s": 2.1,
+   "link_s": 1.49,
+   "control": 5,
+   "confidence": 5,
+   "score": 77.9,
+   "idea": "Multi-month pause, amount step-down and date change offered inside the cancel flow; skip that works up to the debit date.",
+   "metric": "Cancel-flow save rate; % of paused SIPs that resume",
+   "score_norm": 64
+  },
+  {
+   "id": "O5",
+   "name": "Show costs and prices clearly",
+   "themes": [
+    "T07",
+    "T08"
+   ],
+   "n": 237,
+   "reach": 0.126,
+   "risk_cover": 0.05,
+   "n_risk_set": 40,
+   "retention_link": 0.032,
+   "trigger_share": 0.0,
+   "platforms": 9,
+   "firsthand": 0.519,
+   "reach_s": 2.44,
+   "link_s": 1.25,
+   "control": 4,
+   "confidence": 5,
+   "score": 61.1,
+   "idea": "Show expense ratio, exit load and which NAV date applies before confirming; explain redemption value vs displayed value.",
+   "metric": "Fee/NAV support tickets per 1k SIP investors; redemption-surprise complaints",
+   "score_norm": 50
+  },
+  {
+   "id": "O3",
+   "name": "Reassure investors when markets fall",
+   "themes": [
+    "T03",
+    "T09",
+    "T10"
+   ],
+   "n": 203,
+   "reach": 0.108,
+   "risk_cover": 0.25,
+   "n_risk_set": 40,
+   "retention_link": 0.089,
+   "trigger_share": 0.044,
+   "platforms": 11,
+   "firsthand": 0.527,
+   "reach_s": 2.23,
+   "link_s": 1.71,
+   "control": 3,
+   "confidence": 5,
+   "score": 57.2,
+   "idea": "Triggered in-app context when the index falls X%: history of SIP outcomes after falls, 'what your SIP bought this month', calm default home screen.",
+   "metric": "Stop/redeem rate in the 30 days after a >5% index drawdown",
+   "score_norm": 47
+  },
+  {
+   "id": "O8",
+   "name": "Fix money-access and support problems fast",
+   "themes": [
+    "T16"
+   ],
+   "n": 135,
+   "reach": 0.072,
+   "risk_cover": 0.1,
+   "n_risk_set": 40,
+   "retention_link": 0.037,
+   "trigger_share": 0.007,
+   "platforms": 5,
+   "firsthand": 0.963,
+   "reach_s": 1.82,
+   "link_s": 1.3,
+   "control": 4,
+   "confidence": 5,
+   "score": 47.1,
+   "idea": "SLA-backed tracking for withdrawals and SIP payment tickets; status pages instead of loops.",
+   "metric": "Churn after a money-related support ticket vs matched users",
+   "score_norm": 39
+  }
+ ],
+ "validation": {
+  "agreement": [
+   {
+    "pair": "T01 vs expectation_gap=expected returns",
+    "tp": 29,
+    "fp": 9,
+    "fn": 9,
+    "precision": 0.76,
+    "recall": 0.76,
+    "kappa": 0.71
+   },
+   {
+    "pair": "T02 vs trigger=lack of visible progress",
+    "tp": 12,
+    "fp": 3,
+    "fn": 4,
+    "precision": 0.8,
+    "recall": 0.75,
+    "kappa": 0.75
+   },
+   {
+    "pair": "T03 vs trigger=market fall",
+    "tp": 6,
+    "fp": 6,
+    "fn": 1,
+    "precision": 0.5,
+    "recall": 0.86,
+    "kappa": 0.61
+   },
+   {
+    "pair": "T04 vs trigger=job change/emergency",
+    "tp": 4,
+    "fp": 6,
+    "fn": 0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "kappa": 0.56
+   },
+   {
+    "pair": "T07 vs confusion=fees",
+    "tp": 2,
+    "fp": 5,
+    "fn": 0,
+    "precision": 0.29,
+    "recall": 1.0,
+    "kappa": 0.44
+   }
+  ],
+  "robustness": {
+   "Drop duplicate-text rows": 1.0,
+   "Verbatim only (drop paraphrases)": 0.99,
+   "One record per author": 0.99,
+   "Leave out Google Play": 0.83,
+   "Leave out Reddit": 0.97,
+   "Leave out YouTube": 0.97,
+   "Leave out TradingQnA": 0.96,
+   "Leave out Article": 1.0,
+   "Leave out ValuePickr": 0.98,
+   "Leave out Medium": 1.0,
+   "Leave out Substack": 1.0,
+   "Leave out Freefincal": 1.0,
+   "Leave out BasuNivesh": 0.99,
+   "Leave out ReLakhs": 1.0,
+   "Leave out Jagoinvestor": 1.0
+  },
+  "top5": [
+   "T15",
+   "T12",
+   "T06",
+   "T14",
+   "T13"
+  ],
+  "top5_overlap": {
+   "no-dupes": 5,
+   "verbatim": 5,
+   "per-author": 5
+  },
+  "saturation": {
+   "points": [
+    1.54,
+    16.3,
+    17.44,
+    17.72,
+    17.9,
+    17.92,
+    17.96,
+    17.98,
+    17.98,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "step": 47,
+   "n": 1885,
+   "n90": 47
+  },
+  "triangulated": {
+   "T01": true,
+   "T02": true,
+   "T03": true,
+   "T04": true,
+   "T05": true,
+   "T06": true,
+   "T07": true,
+   "T08": true,
+   "T09": true,
+   "T10": true,
+   "T11": true,
+   "T12": true,
+   "T13": true,
+   "T14": true,
+   "T15": true,
+   "T16": true,
+   "T17": true,
+   "T18": true
+  },
+  "opinion_at_risk": 1,
+  "audit_sample_ids": [
+   "R1592",
+   "R0394",
+   "R1599",
+   "R1251",
+   "R1694",
+   "R0695",
+   "R1394",
+   "R1688",
+   "R1606",
+   "R1100",
+   "R2004",
+   "R2088",
+   "R1687",
+   "R1525",
+   "R0619",
+   "R0632",
+   "R2329",
+   "R1720",
+   "R0868",
+   "R0512",
+   "R2138",
+   "R0677",
+   "R1320",
+   "R2278",
+   "R1685",
+   "R1798",
+   "R0015",
+   "R1649",
+   "R1141",
+   "R2091",
+   "R1144",
+   "R2081",
+   "R1492",
+   "R0853",
+   "R1503",
+   "R1584",
+   "R0576",
+   "R2202",
+   "R1412",
+   "R1832"
+  ],
+  "stance_audit": {
+   "n": 31,
+   "agree": 22,
+   "accuracy": 0.71,
+   "disagreements": [
+    {
+     "record_id": "R0293",
+     "machine": "unclear",
+     "human": "self: continuing"
+    },
+    {
+     "record_id": "R0324",
+     "machine": "opinion: sceptical",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0460",
+     "machine": "self: continuing",
+     "human": "unclear"
+    },
+    {
+     "record_id": "R0463",
+     "machine": "unclear",
+     "human": "self: continuing"
+    },
+    {
+     "record_id": "R0306",
+     "machine": "opinion: sceptical",
+     "human": "self: paused / stopped / at-risk"
+    },
+    {
+     "record_id": "R0015",
+     "machine": "self: paused / stopped / at-risk",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0266",
+     "machine": "self: paused / stopped / at-risk",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0270",
+     "machine": "self: continuing",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0308",
+     "machine": "self: paused / stopped / at-risk",
+     "human": "self: stopped then resumed / mixed"
+    }
+   ]
+  },
+  "golden": {
+   "n": 20,
+   "type_agree": 12,
+   "type_kappa": 0.5,
+   "coarse_agree": 13,
+   "topic_recall": 0.48,
+   "topic_precision": 0.59,
+   "topic_exact": 6,
+   "stage_answered": 15,
+   "stage_match": 1,
+   "disagreements": [
+    {
+     "item": 4,
+     "record_id": "R0005",
+     "human": "unclear",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 5,
+     "record_id": "R0427",
+     "human": "opinion_against",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 7,
+     "record_id": "R0369",
+     "human": "stopped_then_restarted",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 9,
+     "record_id": "R0360",
+     "human": "stopped_or_paused",
+     "engine": "unclear"
+    },
+    {
+     "item": 11,
+     "record_id": "R0015",
+     "human": "unclear",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 15,
+     "record_id": "R0387",
+     "human": "opinion_for",
+     "engine": "unclear"
+    },
+    {
+     "item": 16,
+     "record_id": "R0220",
+     "human": "unclear",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 19,
+     "record_id": "R0460",
+     "human": "unclear",
+     "engine": "kept_going"
+    }
+   ]
+  },
+  "golden_rules": {
+   "n": 20,
+   "type_agree": 10,
+   "type_kappa": 0.39,
+   "coarse_agree": 13,
+   "topic_recall": 0.45,
+   "topic_precision": 0.52,
+   "topic_exact": 5,
+   "stage_answered": 15,
+   "stage_match": 4,
+   "disagreements": [
+    {
+     "item": 5,
+     "record_id": "R0427",
+     "human": "opinion_against",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 7,
+     "record_id": "R0369",
+     "human": "stopped_then_restarted",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 9,
+     "record_id": "R0360",
+     "human": "stopped_or_paused",
+     "engine": "opinion_against"
+    },
+    {
+     "item": 10,
+     "record_id": "R0385",
+     "human": "unclear",
+     "engine": "opinion_for"
+    },
+    {
+     "item": 11,
+     "record_id": "R0015",
+     "human": "unclear",
+     "engine": "stopped_then_restarted"
+    },
+    {
+     "item": 14,
+     "record_id": "R0344",
+     "human": "opinion_against",
+     "engine": "unclear"
+    },
+    {
+     "item": 15,
+     "record_id": "R0387",
+     "human": "opinion_for",
+     "engine": "opinion_against"
+    },
+    {
+     "item": 16,
+     "record_id": "R0220",
+     "human": "unclear",
+     "engine": "stopped_or_paused"
+    },
+    {
+     "item": 18,
+     "record_id": "R0308",
+     "human": "stopped_or_paused",
+     "engine": "stopped_then_restarted"
+    },
+    {
+     "item": 19,
+     "record_id": "R0460",
+     "human": "unclear",
+     "engine": "kept_going"
+    }
+   ]
+  },
+  "iteration1": {
+   "agreement": [
+    {
+     "pair": "T01 vs expectation_gap=expected returns",
+     "tp": 22,
+     "fp": 14,
+     "fn": 16,
+     "precision": 0.61,
+     "recall": 0.58,
+     "kappa": 0.52
+    },
+    {
+     "pair": "T02 vs trigger=lack of visible progress",
+     "tp": 12,
+     "fp": 3,
+     "fn": 4,
+     "precision": 0.8,
+     "recall": 0.75,
+     "kappa": 0.76
+    },
+    {
+     "pair": "T03 vs trigger=market fall",
+     "tp": 6,
+     "fp": 15,
+     "fn": 1,
+     "precision": 0.29,
+     "recall": 0.86,
+     "kappa": 0.4
+    },
+    {
+     "pair": "T04 vs trigger=job change/emergency",
+     "tp": 4,
+     "fp": 6,
+     "fn": 0,
+     "precision": 0.4,
+     "recall": 1.0,
+     "kappa": 0.56
+    },
+    {
+     "pair": "T07 vs confusion=fees",
+     "tp": 4,
+     "fp": 5,
+     "fn": 5,
+     "precision": 0.44,
+     "recall": 0.44,
+     "kappa": 0.42
+    }
+   ],
+   "n_core": 238,
+   "stance_n": {
+    "continuing": 26,
+    "at-risk / dropped": 22
+   }
+  }
+ },
+ "journey": {
+  "stages": [
+   {
+    "id": "S01",
+    "label": "Awareness and learning",
+    "themes": [
+     "T15",
+     "T10"
+    ],
+    "levers": [
+     "O7"
+    ],
+    "n": 129,
+    "share": 0.068,
+    "firsthand": 52,
+    "n_platforms": 10,
+    "at_risk": 1,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T15",
+      0.44
+     ],
+     [
+      "T13",
+      0.26
+     ],
+     [
+      "T10",
+      0.22
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0071",
+      "platform": "Google Play",
+      "text": "Very worst experience. No support from the customer service. I have sent mail also no reply. I thought of saving in MF's. By this experience I will not invest any. worst app..already mailed no use"
+     },
+     {
+      "record_id": "R0474",
+      "platform": "Google Play",
+      "text": "this app very useful about Stock Market then I learn from this app finance Tracy literacy then I learn from this app basic Indian stock market and mutual funds in any investing once upon a time I don't have a knowledge a"
+     },
+     {
+      "record_id": "R1116",
+      "platform": "YouTube",
+      "text": "Amazing guideline towards how to go about our financial planning in 2026.l I am an entrepreneur and have really learnt a lot about the stock market, bonds, gold, sip from your honest, simple explanation.Thank you Mr.Anku"
+     }
+    ],
+    "reference": {
+     "record_id": "J01",
+     "trigger": "Earning a stipend; wanting to build wealth early",
+     "behaviour": "Reading about mutual funds, comparing categories, asking others to validate choices",
+     "friction": "Uncertainty about fund selection and diversification",
+     "evidence": "An articleship trainee planned Rs 3,000/month after several weeks of learning, with increases as income grew.",
+     "status": "intention",
+     "url": "https://www.reddit.com/r/mutualfunds/comments/1v0iryb/"
+    }
+   },
+   {
+    "id": "S02",
+    "label": "First SIP",
+    "themes": [
+     "T13"
+    ],
+    "levers": [
+     "O6"
+    ],
+    "n": 86,
+    "share": 0.046,
+    "firsthand": 82,
+    "n_platforms": 11,
+    "at_risk": 2,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T15",
+      0.45
+     ],
+     [
+      "T13",
+      0.3
+     ],
+     [
+      "T12",
+      0.14
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0101",
+      "platform": "Google Play",
+      "text": "Started using Groww for mutual funds and stocks just 2 days ago, and already disappointed. There are hidden charges on small, small services that aren't clearly disclosed upfront \u2014 feels misleading for a new user. On top"
+     },
+     {
+      "record_id": "R0220",
+      "platform": "Google Play",
+      "text": "i using it for around 2 month's and i invested on a cap fund it goes up and I got 549 but when I redeem it i goes down and down and I got only 525. what is happening. then i mind to deleted my account from this app."
+     },
+     {
+      "record_id": "R0492",
+      "platform": "Google Play",
+      "text": "The app is really good and very easy to use I am 18 and I recently started doing SIP with my savings so this app has helped me a lot in taking my first steps into investing everything feels simple and beginner friendly w"
+     }
+    ],
+    "reference": {
+     "record_id": "J02",
+     "trigger": "First job or first salary",
+     "behaviour": "Starting investments and seeking portfolio feedback",
+     "friction": "Balancing investing with spending, insurance and emergency savings",
+     "evidence": "A first-job investor said Reddit discussions helped them start; commenters disagreed about investing immediately versus enjoying initial salaries.",
+     "status": "action",
+     "url": "https://www.reddit.com/r/mutualfunds/comments/1ompgdd/"
+    }
+   },
+   {
+    "id": "S03",
+    "label": "Setup and first payment",
+    "themes": [
+     "T06"
+    ],
+    "levers": [
+     "O4"
+    ],
+    "n": 92,
+    "share": 0.049,
+    "firsthand": 73,
+    "n_platforms": 6,
+    "at_risk": 0,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T06",
+      0.64
+     ],
+     [
+      "T16",
+      0.21
+     ],
+     [
+      "T05",
+      0.09
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0216",
+      "platform": "Google Play",
+      "text": "At first it felt good as its very easy to buy an sip without paying commission, but don't know it was a glitch but 2 duplicate sip were created and amount was deducted from my account. When reported the support was not t"
+     },
+     {
+      "record_id": "R0472",
+      "platform": "Google Play",
+      "text": "I started an sip and paid the first amount it was debited from my account but it failed saying kyc is not valid and there's no option for rekyc even the support system doesn't help. Edit : the support team reached out to"
+     },
+     {
+      "record_id": "R0477",
+      "platform": "Google Play",
+      "text": "Bahut accha experience raha. SIP register karne ka process smooth aur easy tha. US and IND . ka SIP successfully register ho gaya. App user-friendly hai aur interface clean hai."
+     }
+    ],
+    "reference": {
+     "record_id": "J03",
+     "trigger": "Registering the SIP and payment mandate",
+     "behaviour": "Checking whether the first instalment executed; contacting support",
+     "friction": "Failed payment despite sufficient balance; unclear registration status; unhelpful support",
+     "evidence": "One investor reported a failed first NASDAQ-fund instalment and repeated transfers between Groww support agents. Resolution was not established.",
+     "status": "action (outcome unresolved)",
+     "url": "https://www.reddit.com/r/mutualfunds/comments/1qy5uvi/"
+    }
+   },
+   {
+    "id": "S04",
+    "label": "Building the monthly habit",
+    "themes": [
+     "T12",
+     "T13"
+    ],
+    "levers": [
+     "O6"
+    ],
+    "n": 32,
+    "share": 0.017,
+    "firsthand": 23,
+    "n_platforms": 7,
+    "at_risk": 0,
+    "continuing": 1,
+    "top_themes": [
+     [
+      "T12",
+      0.41
+     ],
+     [
+      "T13",
+      0.25
+     ],
+     [
+      "T15",
+      0.19
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0544",
+      "platform": "Google Play",
+      "text": "best experience sir but plz start 50 rs daily sip"
+     },
+     {
+      "record_id": "R0547",
+      "platform": "Google Play",
+      "text": "Good app hai invest karneka download kijiye I am invest mutual fund totally best app I am a student monthly amount I sip minimum amount wonderful app...\ud83e\udd70\ud83e\udd70\ud83e\udd70\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d"
+     },
+     {
+      "record_id": "R0849",
+      "platform": "Google Play",
+      "text": "This is a very useful app. The feature I like the most is the ability to invest through Daily SIPs in a wide range of direct mutual funds, even with a very small investment amount. FYI, Weekly and monthly SIPs are also a"
+     }
+    ],
+    "reference": {
+     "record_id": "J04",
+     "trigger": "Desire for discipline without committing too much initially",
+     "behaviour": "Starting with a manageable amount and planning gradual increases",
+     "friction": "Uncertainty about allocation and how much to invest",
+     "evidence": "A new investor reported starting at Rs 20,000/month to become comfortable and build discipline.",
+     "status": "action",
+     "url": "https://www.reddit.com/r/mutualfunds/comments/1sj8gqy/"
+    }
+   },
+   {
+    "id": "S05",
+    "label": "Routine payment interruption",
+    "themes": [
+     "T06",
+     "T17"
+    ],
+    "levers": [
+     "O4"
+    ],
+    "n": 87,
+    "share": 0.046,
+    "firsthand": 71,
+    "n_platforms": 7,
+    "at_risk": 0,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T06",
+      0.98
+     ],
+     [
+      "T16",
+      0.36
+     ],
+     [
+      "T07",
+      0.14
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0005",
+      "platform": "Google Play",
+      "text": "My bank account has been blocked due to an unexpected transaction from Groww. I did not initiate or withdraw any money, yet funds were automatically credited to my account. It has been almost a month, and my account is s"
+     },
+     {
+      "record_id": "R0235",
+      "platform": "Google Play",
+      "text": "Everything's great till you get into an issue. From then on there's no proper support. There was a monthly SIP for which my bank account has been debited but the order is not completed on GROWW even after 7 days. Raised "
+     },
+     {
+      "record_id": "R0495",
+      "platform": "Google Play",
+      "text": "my sip deducted two times this month and no response from complaint"
+     }
+    ],
+    "reference": {
+     "record_id": "J05",
+     "trigger": "Forgetting to fund the linked account or a technical failure",
+     "behaviour": "Missing an instalment, transferring money later, asking about retries",
+     "friction": "Penalties and uncertainty about making up the missed payment",
+     "evidence": "One poster reported a Rs 295 bank charge after forgetting to transfer funds; another reported a bank-described technical mandate failure. Neither alone proves voluntary SIP cancellation.",
+     "status": "action (involuntary miss)",
+     "url": "https://www.reddit.com/r/mutualfunds/comments/1s18xyc/"
+    }
+   },
+   {
+    "id": "S06",
+    "label": "First confidence test",
+    "themes": [
+     "T03",
+     "T02",
+     "T09"
+    ],
+    "levers": [
+     "O3",
+     "O1"
+    ],
+    "n": 44,
+    "share": 0.023,
+    "firsthand": 28,
+    "n_platforms": 9,
+    "at_risk": 0,
+    "continuing": 2,
+    "top_themes": [
+     [
+      "T03",
+      0.66
+     ],
+     [
+      "T12",
+      0.36
+     ],
+     [
+      "T10",
+      0.23
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0290",
+      "platform": "Reddit",
+      "text": "Yesterday was exactly one year since I began my sips, my total returns are at 4.8% and XIRR is at 9% (it was 14% two weeks ago), even in this bear market I am comfortably breaking FD returns, plus I am accumulating units"
+     },
+     {
+      "record_id": "R1194",
+      "platform": "YouTube",
+      "text": "Ravi ji, I have invested lump sum amount in MF equity fund growth and the present market downfall ,I want to switch in risk free and secure fund . Please advise immediately. Thanks"
+     },
+     {
+      "record_id": "R1211",
+      "platform": "YouTube",
+      "text": "2.6 year hi gye midcap me sip krte karte 16% returns the ab -2% ho gye but sip dual kr fir \ud83d\ude05\ud83d\ude05\ud83d\ude05 3 din ab 4% up ho gya portfolio 25 year concept clear hai"
+     }
+    ],
+    "reference": {
+     "record_id": "J06",
+     "trigger": "Falling markets and a red portfolio",
+     "behaviour": "Considering a pause; seeking reassurance from experienced investors",
+     "friction": "Fear of further losses and discomfort investing during a decline",
+     "evidence": "A poster described wanting to pause until markets calmed down, but had not confirmed stopping.",
+     "status": "intention",
+     "url": "https://www.reddit.com/r/personalfinanceindia/comments/1rrikls/"
+    }
+   },
+   {
+    "id": "S07",
+    "label": "Continuing and increasing",
+    "themes": [
+     "T12"
+    ],
+    "levers": [
+     "O6"
+    ],
+    "n": 135,
+    "share": 0.072,
+    "firsthand": 118,
+    "n_platforms": 10,
+    "at_risk": 1,
+    "continuing": 8,
+    "top_themes": [
+     [
+      "T12",
+      0.5
+     ],
+     [
+      "T15",
+      0.36
+     ],
+     [
+      "T13",
+      0.31
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0290",
+      "platform": "Reddit",
+      "text": "Yesterday was exactly one year since I began my sips, my total returns are at 4.8% and XIRR is at 9% (it was 14% two weeks ago), even in this bear market I am comfortably breaking FD returns, plus I am accumulating units"
+     },
+     {
+      "record_id": "R0573",
+      "platform": "Google Play",
+      "text": "I have been using this app for 4 years. What I love that it's clean interface and calm colours in UI. but I like to request one feature add step-up feature in SIP."
+     },
+     {
+      "record_id": "R0614",
+      "platform": "Google Play",
+      "text": "I guess it's one of the best app for treading. Very easy to handle as a first time user in stock market. Everything is very easy to understand and segmented on different portions. One problem is I can't increase Sip mone"
+     }
+    ],
+    "reference": {
+     "record_id": "J07",
+     "trigger": "Salary growth and experience across market cycles",
+     "behaviour": "Increasing contributions and maintaining SIPs",
+     "friction": "Developing conviction despite periods of stagnant portfolio value",
+     "evidence": "One commenter increased monthly SIPs from Rs 5,000 in 2022 to Rs 30,000 in September 2024. Another reported starting with Rs 1,000 in 2016 and increasing with salary hikes.",
+     "status": "action",
+     "url": "https://www.reddit.com/r/mutualfunds/comments/1fbt8ox/"
+    }
+   },
+   {
+    "id": "S08",
+    "label": "Reprioritising cash flow",
+    "themes": [
+     "T04",
+     "T05"
+    ],
+    "levers": [
+     "O2"
+    ],
+    "n": 32,
+    "share": 0.017,
+    "firsthand": 16,
+    "n_platforms": 8,
+    "at_risk": 2,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T04",
+      0.81
+     ],
+     [
+      "T05",
+      0.28
+     ],
+     [
+      "T13",
+      0.16
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0015",
+      "platform": "Google Play",
+      "text": "Giving 1 star just because I tried a lot to skip my sips for a month and it shows it can be done 2 days before sip date, but even before 2 days it doesn't work. I recently got operated on my knee and I'm not able to go f"
+     },
+     {
+      "record_id": "R0457",
+      "platform": "Reddit",
+      "text": "Used their first four to five years of investments for a home deposit and restarted SIPs after completing the home loan."
+     },
+     {
+      "record_id": "R1037",
+      "platform": "Reddit",
+      "text": "What needs to be done is up to you. I can give you an example of what I did. I had an educational loan of 8-9L and my EMI was 11-12k/mo. My salary at that time was just 60k/mo. I was doing an SIP of 10k and the rest was "
+     }
+    ],
+    "reference": {
+     "record_id": "J08",
+     "trigger": "Home-loan interest, emergency savings or another purchase",
+     "behaviour": "Pausing or reducing contributions while retaining investments",
+     "friction": "Competing uses for monthly income",
+     "evidence": "One investor paused most SIPs to build emergency funds and reduce home-loan interest. Another stopped for four months to buy physical gold.",
+     "status": "action",
+     "url": "https://www.reddit.com/r/IndiaFinance/comments/1wrkmij/"
+    }
+   },
+   {
+    "id": "S09",
+    "label": "Panic-driven interruption",
+    "themes": [
+     "T03",
+     "T18"
+    ],
+    "levers": [
+     "O3"
+    ],
+    "n": 16,
+    "share": 0.008,
+    "firsthand": 9,
+    "n_platforms": 7,
+    "at_risk": 1,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T03",
+      0.88
+     ],
+     [
+      "T14",
+      0.31
+     ],
+     [
+      "T18",
+      0.25
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0536",
+      "platform": "Google Play",
+      "text": "SHAME ON YOU IND MONEY. This is worst application, these guys have charge more than rupees 4000 for SIP mandate bounce, if indmoney think that it will encourage investor to invest more amount without fail, you are wrong,"
+     },
+     {
+      "record_id": "R1113",
+      "platform": "Reddit",
+      "text": "I stopped SIP six months ago. Conventional wisdom is that you buy when market goes lower. But for me, I'll only buy if there are any indications that market will go up. Instead of SIP in mutual funds, I had moved to gold"
+     },
+     {
+      "record_id": "R1194",
+      "platform": "YouTube",
+      "text": "Ravi ji, I have invested lump sum amount in MF equity fund growth and the present market downfall ,I want to switch in risk free and secure fund . Please advise immediately. Thanks"
+     }
+    ],
+    "reference": {
+     "record_id": "J09",
+     "trigger": "A market crash",
+     "behaviour": "Stopping SIPs, moving to safer-feeling assets, waiting to restart",
+     "friction": "Fear followed by difficulty deciding when to re-enter",
+     "evidence": "One poster reported stopping during the COVID crash, moving to FDs and restarting 14 months later. Their claimed opportunity-cost calculation was not independently verified.",
+     "status": "action",
+     "url": "https://www.reddit.com/r/MutualFunds_India/comments/1vys3gx/"
+    }
+   },
+   {
+    "id": "S10",
+    "label": "Fund switching",
+    "themes": [
+     "T15"
+    ],
+    "levers": [
+     "O7"
+    ],
+    "n": 83,
+    "share": 0.044,
+    "firsthand": 75,
+    "n_platforms": 10,
+    "at_risk": 1,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T15",
+      0.99
+     ],
+     [
+      "T01",
+      0.31
+     ],
+     [
+      "T13",
+      0.25
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0266",
+      "platform": "Reddit",
+      "text": "Not really man. You can definitely learn and invest. It's your hard earned money. SIP gives you discipline to save and invest. After 18 months, I stopped it in Indian equities, and started learning about the market and s"
+     },
+     {
+      "record_id": "R1246",
+      "platform": "YouTube",
+      "text": "Sir will it make any difference if I stop my current sip which is a regular sip and start my new sip on direct fund without switching it and starting a new sip on same fund pls tell ?"
+     },
+     {
+      "record_id": "R1439",
+      "platform": "YouTube",
+      "text": "Mera ke fund hi Franklin Asian Equity Fund, and ye pichhle 3 saal se negative me hi -3&-4 ke bich me rhata hi. Abhi tak 40,000 invest kar chuka hun ...ab kya Karu samajh me nhi aa rha..kya isko kisi dusre port folio ya f"
+     }
+    ],
+    "reference": {
+     "record_id": "J10",
+     "trigger": "Dissatisfaction with a particular fund",
+     "behaviour": "Announcing cancellation of new contributions to that fund and redirecting them elsewhere",
+     "friction": "Loss of confidence in fund management or portfolio choices",
+     "evidence": "One poster announced a move from Motilal Oswal Midcap to Edelweiss Mid Cap. This establishes stated switching intent, not the accuracy of their allegations or an exit from SIP investing.",
+     "status": "stated intention",
+     "url": "https://www.reddit.com/r/MutualfundsIndia/comments/1r5b1f1/"
+    }
+   },
+   {
+    "id": "S11",
+    "label": "Goal-based withdrawal",
+    "themes": [
+     "T13",
+     "T16"
+    ],
+    "levers": [
+     "O6",
+     "O8"
+    ],
+    "n": 10,
+    "share": 0.005,
+    "firsthand": 6,
+    "n_platforms": 6,
+    "at_risk": 1,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T13",
+      0.5
+     ],
+     [
+      "T04",
+      0.3
+     ],
+     [
+      "T18",
+      0.2
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0578",
+      "platform": "Google Play",
+      "text": "If you want to save money, this is the right place. Through this platform, you can invest your money very well and earn money. This is the right platform, it is right for you and there is no cheating or fraud issue here."
+     },
+     {
+      "record_id": "R0457",
+      "platform": "Reddit",
+      "text": "Used their first four to five years of investments for a home deposit and restarted SIPs after completing the home loan."
+     },
+     {
+      "record_id": "R1006",
+      "platform": "Reddit",
+      "text": "I had SIPs all the way, I wish i had started sooner. I too tried to buy stocks only to realise i can't give it much time to justify that approach. Stuck to Index funds portfolio now. When it came to emergency funds and s"
+     }
+    ],
+    "reference": {
+     "record_id": "J11",
+     "trigger": "Home construction or land purchase",
+     "behaviour": "Redeeming accumulated investments, while continuing to invest afterward",
+     "friction": "Balancing a large purchase with rebuilding the portfolio",
+     "evidence": "A commenter reported redeeming for a home and currently investing Rs 80,000/month; another mentioned redemption for a site purchase.",
+     "status": "action",
+     "url": "https://www.reddit.com/r/personalfinanceindia/comments/1o11kiv/"
+    }
+   },
+   {
+    "id": "S12",
+    "label": "Restarting",
+    "themes": [],
+    "levers": [
+     "O2"
+    ],
+    "n": 24,
+    "share": 0.013,
+    "firsthand": 17,
+    "n_platforms": 8,
+    "at_risk": 1,
+    "continuing": 0,
+    "top_themes": [
+     [
+      "T04",
+      0.38
+     ],
+     [
+      "T05",
+      0.29
+     ],
+     [
+      "T13",
+      0.25
+     ]
+    ],
+    "examples": [
+     {
+      "record_id": "R0480",
+      "platform": "Google Play",
+      "text": "i am unable to unpause the SIP, when I click on the paused SIP the app instantly closes. Please fix this issue ASAP."
+     },
+     {
+      "record_id": "R0457",
+      "platform": "Reddit",
+      "text": "Used their first four to five years of investments for a home deposit and restarted SIPs after completing the home loan."
+     },
+     {
+      "record_id": "R1128",
+      "platform": "YouTube",
+      "text": "Sir main sip ka Paisa 2 months nei de paunga. Toh kya 2 mahine skip sip option select Karu ya cancel sip option? 2 months ke baad firse start karna chahta hun aur beech mein Kuch redeem nehi hoga. Sab invested rahega"
+     }
+    ],
+    "reference": {
+     "record_id": "J12",
+     "trigger": "Priorities settle or confidence returns",
+     "behaviour": "Resuming contributions or asking how to restart",
+     "friction": "Choosing funds again and overcoming hesitation",
+     "evidence": "The COVID-crash poster reported an actual restart; the home-loan poster wanted to restart; the gold buyer planned to resume the following month. Completed restarts and intentions are different evidence.",
+     "status": "mixed (1 action; 2 intentions)",
+     "url": "https://www.reddit.com/r/MutualFunds_India/comments/1vys3gx/"
+    }
+   }
+  ],
+  "untagged": 1218,
+  "n_core": 1885,
+  "multi": 90
+ },
+ "competitor": {
+  "n_rows": 47,
+  "n_included": 45,
+  "excluded": [
+   {
+    "record_id": "C38",
+    "exclude_reason": "Not specific to mutual funds (Account / support)"
+   },
+   {
+    "record_id": "C46",
+    "exclude_reason": "Not specific to mutual funds (Account / support)"
+   }
+  ],
+  "directions": {
+   "Against Coin": 15,
+   "Pro Coin": 9,
+   "Against Groww": 8,
+   "Mixed": 7,
+   "Pro Groww": 6
+  },
+  "n_sources": 31,
+  "source_mix": {
+   "Reddit": 23,
+   "Apple App Store": 14,
+   "Google Play": 6,
+   "Trustpilot": 2
+  },
+  "first_time": 3,
+  "features": [
+   {
+    "id": "F9",
+    "label": "Order execution, NAV timing and redemption",
+    "n": 11,
+    "ids": [
+     "C03",
+     "C04",
+     "C10",
+     "C12",
+     "C16",
+     "C20",
+     "C21",
+     "C24",
+     "C29",
+     "C39",
+     "C40"
+    ],
+    "directions": {
+     "Against Coin": 4,
+     "Pro Coin": 2,
+     "Against Groww": 2,
+     "Mixed": 2,
+     "Pro Groww": 1
+    },
+    "independent": 11,
+    "facts": [
+     {
+      "id": 9,
+      "feature": "Reported app ratings",
+      "position": "These display store-wide scores, not SIP user satisfaction or representative MF sentiment.",
+      "url": "https://play.google.com/store/apps/details?hl=en&id=com.zerodha.coin",
+      "confidence": "Context only",
+      "caution": "Do not weight selected qualitative comments by ratings.",
+      "needs_check": false
+     }
+    ],
+    "lever": "O5",
+    "groww_support": 21,
+    "groww_ids": [
+     "R0235",
+     "R0463",
+     "R0464",
+     "R0496",
+     "R0569",
+     "R0675"
+    ]
+   },
+   {
+    "id": "F3",
+    "label": "Easy, beginner-friendly interface",
+    "n": 7,
+    "ids": [
+     "C02",
+     "C08",
+     "C16",
+     "C28",
+     "C33",
+     "C34",
+     "C35"
+    ],
+    "directions": {
+     "Pro Groww": 4,
+     "Pro Coin": 3
+    },
+    "independent": 7,
+    "facts": [],
+    "lever": "O7",
+    "groww_support": 16,
+    "groww_ids": [
+     "R0006",
+     "R0491",
+     "R0492",
+     "R0504",
+     "R0510",
+     "R0512"
+    ]
+   },
+   {
+    "id": "F5",
+    "label": "Accurate portfolio view, tracking and reporting",
+    "n": 7,
+    "ids": [
+     "C05",
+     "C14",
+     "C22",
+     "C25",
+     "C26",
+     "C30",
+     "C45"
+    ],
+    "directions": {
+     "Against Coin": 3,
+     "Pro Coin": 1,
+     "Pro Groww": 1,
+     "Mixed": 1,
+     "Against Groww": 1
+    },
+    "independent": 7,
+    "facts": [
+     {
+      "id": 0,
+      "feature": "Mutual fund vs stock SIP",
+      "position": "Coin is Zerodha MF platform; Kite includes stocks/ETFs; these require separate research labels.",
+      "url": "https://zerodha.com/z-connect/kite/introducing-mutual-fund-tracking-on-kite",
+      "confidence": "Confirmed, platform docs",
+      "caution": "Never use equity brokerage as proof of MF SIP charges.",
+      "needs_check": false
+     }
+    ],
+    "lever": "O5",
+    "groww_support": 27,
+    "groww_ids": [
+     "R0260",
+     "R0444",
+     "R0470",
+     "R0525",
+     "R0761",
+     "R0772"
+    ]
+   },
+   {
+    "id": "F7",
+    "label": "Onboarding: KYC, minimum order, account setup",
+    "n": 7,
+    "ids": [
+     "C11",
+     "C13",
+     "C16",
+     "C33",
+     "C36",
+     "C42",
+     "C47"
+    ],
+    "directions": {
+     "Pro Groww": 3,
+     "Against Coin": 2,
+     "Against Groww": 2
+    },
+    "independent": 7,
+    "facts": [],
+    "lever": null,
+    "groww_support": 16,
+    "groww_ids": [
+     "R0472",
+     "R0487",
+     "R0519",
+     "R0530",
+     "R0547",
+     "R0623"
+    ]
+   },
+   {
+    "id": "F6",
+    "label": "Support quality and issue resolution",
+    "n": 6,
+    "ids": [
+     "C10",
+     "C18",
+     "C34",
+     "C36",
+     "C42",
+     "C45"
+    ],
+    "directions": {
+     "Against Coin": 2,
+     "Pro Groww": 2,
+     "Against Groww": 2
+    },
+    "independent": 6,
+    "facts": [],
+    "lever": "O8",
+    "groww_support": 18,
+    "groww_ids": [
+     "R0025",
+     "R0071",
+     "R0101",
+     "R0216",
+     "R0235",
+     "R0472"
+    ]
+   },
+   {
+    "id": "F8",
+    "label": "Fund research, comparison and discovery",
+    "n": 6,
+    "ids": [
+     "C23",
+     "C27",
+     "C31",
+     "C35",
+     "C41",
+     "C44"
+    ],
+    "directions": {
+     "Mixed": 3,
+     "Against Coin": 2,
+     "Pro Groww": 1
+    },
+    "independent": 6,
+    "facts": [],
+    "lever": "O7",
+    "groww_support": 28,
+    "groww_ids": [
+     "R0006",
+     "R0270",
+     "R0285",
+     "R0967",
+     "R0974",
+     "R0976"
+    ]
+   },
+   {
+    "id": "F10",
+    "label": "Mandate, autopay and SIPs stopping on their own",
+    "n": 6,
+    "ids": [
+     "C11",
+     "C15",
+     "C17",
+     "C18",
+     "C19",
+     "C40"
+    ],
+    "directions": {
+     "Against Coin": 5,
+     "Mixed": 1
+    },
+    "independent": 6,
+    "facts": [
+     {
+      "id": 4,
+      "feature": "Coin SIP payments",
+      "position": "Mandate is optional for standard Coin SIP; payment completion and mandate linking have documented conditions.",
+      "url": "https://support.zerodha.com/category/mutual-funds/payments-and-orders/payment-methods/articles/sip-payment-on-coin",
+      "confidence": "Confirmed current help",
+      "caution": "A failed payment is not always a software failure.",
+      "needs_check": false
+     },
+     {
+      "id": 5,
+      "feature": "Coin AMC SIP",
+      "position": "Coin supports AMC-registered SIPs; some cannot be modified/paused and need mandate set up.",
+      "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/amc-sip-on-coin",
+      "confidence": "Confirmed current help",
+      "caution": "AMC versus platform SIP can affect order behavior and stoppages.",
+      "needs_check": false
+     },
+     {
+      "id": 7,
+      "feature": "Coin stop/pause behavior",
+      "position": "Platform SIP can be paused and resumed; AMC SIPs cannot necessarily be paused.",
+      "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/how-do-i-pause-my-sip",
+      "confidence": "Confirmed current help",
+      "caution": "Distinguish voluntary stops, mandate issues and fund-house stops.",
+      "needs_check": false
+     }
+    ],
+    "lever": "O4",
+    "groww_support": 82,
+    "groww_ids": [
+     "R0235",
+     "R0405",
+     "R0518",
+     "R0536",
+     "R0542",
+     "R0554"
+    ]
+   },
+   {
+    "id": "F12",
+    "label": "App speed and bugs",
+    "n": 5,
+    "ids": [
+     "C15",
+     "C24",
+     "C37",
+     "C41",
+     "C42"
+    ],
+    "directions": {
+     "Against Coin": 2,
+     "Mixed": 1,
+     "Against Groww": 1,
+     "Pro Groww": 1
+    },
+    "independent": 5,
+    "facts": [],
+    "lever": null,
+    "groww_support": 31,
+    "groww_ids": [
+     "R0101",
+     "R0507",
+     "R0546",
+     "R0571",
+     "R0572",
+     "R0585"
+    ]
+   },
+   {
+    "id": "F1",
+    "label": "Flexible SIP frequency and automatic step-up",
+    "n": 3,
+    "ids": [
+     "C01",
+     "C25",
+     "C30"
+    ],
+    "directions": {
+     "Pro Coin": 1,
+     "Against Coin": 1,
+     "Mixed": 1
+    },
+    "independent": 3,
+    "facts": [
+     {
+      "id": 1,
+      "feature": "Coin SIP frequency",
+      "position": "Daily, weekly, every 15 days, monthly or quarterly; automatic step-up.",
+      "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/sip-on-coin",
+      "confidence": "Confirmed current help",
+      "caution": "May differ for AMC-registered SIPs.",
+      "needs_check": false
+     },
+     {
+      "id": 2,
+      "feature": "Groww MF SIP frequency",
+      "position": "Official MF help currently says monthly only.",
+      "url": "https://groww.in/help/mutual-funds/mf-sip/how-to-start-a-sip-on-groww",
+      "confidence": "Official help, conflicts with release notes",
+      "caution": "App release notes mention daily/weekly SIP, but scope (stock vs MF) is not established; treat as needs verification.",
+      "needs_check": true
+     },
+     {
+      "id": 3,
+      "feature": "Groww app release notes",
+      "position": "App Store version notes say Daily and Weekly SIPs are live; product segment not specified in retrieved excerpt.",
+      "url": "https://apps.apple.com/in/app/groww-stocks-mutual-fund-ipo/id1404871703",
+      "confidence": "Cross-check required",
+      "caution": "Do not insist Groww lacks all daily/weekly SIP functionality.",
+      "needs_check": true
+     },
+     {
+      "id": 8,
+      "feature": "Coin microsavings",
+      "position": "Coin supports small daily micro-SIPs on a limited set of Zerodha schemes.",
+      "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/microsavings-sip",
+      "confidence": "Confirmed current help",
+      "caution": "Not equivalent to all-fund minimum investment rules.",
+      "needs_check": false
+     }
+    ],
+    "lever": "C1",
+    "groww_support": 101,
+    "groww_ids": [
+     "R0486",
+     "R0494",
+     "R0502",
+     "R0531",
+     "R0533",
+     "R0534"
+    ]
+   },
+   {
+    "id": "F2",
+    "label": "Low distraction: no cross-selling or trading prompts",
+    "n": 3,
+    "ids": [
+     "C02",
+     "C04",
+     "C43"
+    ],
+    "directions": {
+     "Pro Coin": 2,
+     "Against Groww": 1
+    },
+    "independent": 3,
+    "facts": [],
+    "lever": "C2",
+    "groww_support": 8,
+    "groww_ids": [
+     "R0635",
+     "R0640",
+     "R0664",
+     "R0671",
+     "R0735",
+     "R0784"
+    ]
+   },
+   {
+    "id": "F11",
+    "label": "Choice of holding format (demat vs statement)",
+    "n": 3,
+    "ids": [
+     "C06",
+     "C14",
+     "C24"
+    ],
+    "directions": {
+     "Against Groww": 1,
+     "Pro Groww": 1,
+     "Against Coin": 1
+    },
+    "independent": 3,
+    "facts": [],
+    "lever": "O5",
+    "groww_support": 28,
+    "groww_ids": [
+     "R0270",
+     "R0364",
+     "R0579",
+     "R0941",
+     "R1022",
+     "R1025"
+    ]
+   },
+   {
+    "id": "F4",
+    "label": "STP / SWP and automation",
+    "n": 2,
+    "ids": [
+     "C02",
+     "C04"
+    ],
+    "directions": {
+     "Pro Coin": 2
+    },
+    "independent": 2,
+    "facts": [
+     {
+      "id": 6,
+      "feature": "Coin STP",
+      "position": "Cross-AMC transfers are supported using bank credit/reinvestment and active mandate.",
+      "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-transfer-plan/articles/systematic-transfer-plan-stp-on-coin-app",
+      "confidence": "Confirmed current help",
+      "caution": "Feature can create separate cash transactions.",
+      "needs_check": false
+     }
+    ],
+    "lever": null,
+    "groww_support": 25,
+    "groww_ids": [
+     "R0496",
+     "R0600",
+     "R0606",
+     "R0689",
+     "R0708",
+     "R0766"
+    ]
+   }
+  ],
+  "facts": [
+   {
+    "id": 0,
+    "feature": "Mutual fund vs stock SIP",
+    "position": "Coin is Zerodha MF platform; Kite includes stocks/ETFs; these require separate research labels.",
+    "url": "https://zerodha.com/z-connect/kite/introducing-mutual-fund-tracking-on-kite",
+    "confidence": "Confirmed, platform docs",
+    "caution": "Never use equity brokerage as proof of MF SIP charges.",
+    "needs_check": false
+   },
+   {
+    "id": 1,
+    "feature": "Coin SIP frequency",
+    "position": "Daily, weekly, every 15 days, monthly or quarterly; automatic step-up.",
+    "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/sip-on-coin",
+    "confidence": "Confirmed current help",
+    "caution": "May differ for AMC-registered SIPs.",
+    "needs_check": false
+   },
+   {
+    "id": 2,
+    "feature": "Groww MF SIP frequency",
+    "position": "Official MF help currently says monthly only.",
+    "url": "https://groww.in/help/mutual-funds/mf-sip/how-to-start-a-sip-on-groww",
+    "confidence": "Official help, conflicts with release notes",
+    "caution": "App release notes mention daily/weekly SIP, but scope (stock vs MF) is not established; treat as needs verification.",
+    "needs_check": true
+   },
+   {
+    "id": 3,
+    "feature": "Groww app release notes",
+    "position": "App Store version notes say Daily and Weekly SIPs are live; product segment not specified in retrieved excerpt.",
+    "url": "https://apps.apple.com/in/app/groww-stocks-mutual-fund-ipo/id1404871703",
+    "confidence": "Cross-check required",
+    "caution": "Do not insist Groww lacks all daily/weekly SIP functionality.",
+    "needs_check": true
+   },
+   {
+    "id": 4,
+    "feature": "Coin SIP payments",
+    "position": "Mandate is optional for standard Coin SIP; payment completion and mandate linking have documented conditions.",
+    "url": "https://support.zerodha.com/category/mutual-funds/payments-and-orders/payment-methods/articles/sip-payment-on-coin",
+    "confidence": "Confirmed current help",
+    "caution": "A failed payment is not always a software failure.",
+    "needs_check": false
+   },
+   {
+    "id": 5,
+    "feature": "Coin AMC SIP",
+    "position": "Coin supports AMC-registered SIPs; some cannot be modified/paused and need mandate set up.",
+    "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/amc-sip-on-coin",
+    "confidence": "Confirmed current help",
+    "caution": "AMC versus platform SIP can affect order behavior and stoppages.",
+    "needs_check": false
+   },
+   {
+    "id": 6,
+    "feature": "Coin STP",
+    "position": "Cross-AMC transfers are supported using bank credit/reinvestment and active mandate.",
+    "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-transfer-plan/articles/systematic-transfer-plan-stp-on-coin-app",
+    "confidence": "Confirmed current help",
+    "caution": "Feature can create separate cash transactions.",
+    "needs_check": false
+   },
+   {
+    "id": 7,
+    "feature": "Coin stop/pause behavior",
+    "position": "Platform SIP can be paused and resumed; AMC SIPs cannot necessarily be paused.",
+    "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/how-do-i-pause-my-sip",
+    "confidence": "Confirmed current help",
+    "caution": "Distinguish voluntary stops, mandate issues and fund-house stops.",
+    "needs_check": false
+   },
+   {
+    "id": 8,
+    "feature": "Coin microsavings",
+    "position": "Coin supports small daily micro-SIPs on a limited set of Zerodha schemes.",
+    "url": "https://support.zerodha.com/category/mutual-funds/features-on-coin/systematic-investment-plan/articles/microsavings-sip",
+    "confidence": "Confirmed current help",
+    "caution": "Not equivalent to all-fund minimum investment rules.",
+    "needs_check": false
+   },
+   {
+    "id": 9,
+    "feature": "Reported app ratings",
+    "position": "These display store-wide scores, not SIP user satisfaction or representative MF sentiment.",
+    "url": "https://play.google.com/store/apps/details?hl=en&id=com.zerodha.coin",
+    "confidence": "Context only",
+    "caution": "Do not weight selected qualitative comments by ratings.",
+    "needs_check": false
+   }
+  ],
+  "file_exclusions": [
+   {
+    "item": "Old row 14",
+    "decision": "Trading-only",
+    "why": "Groww brokerage cost triggered a switch consideration; no MF SIP evidence"
+   },
+   {
+    "item": "Old row 19",
+    "decision": "Trading-only",
+    "why": "User shifted stock trades due to brokerage, not mutual fund SIP"
+   },
+   {
+    "item": "Old rows 22\u201323",
+    "decision": "Trading / duplicate user",
+    "why": "F&O cash-withdrawal and support story; same respondent twice"
+   },
+   {
+    "item": "Old row 24",
+    "decision": "Trading-only",
+    "why": "Kite charting and derivatives review"
+   },
+   {
+    "item": "Old row 25",
+    "decision": "ETF SIP, not MF SIP",
+    "why": "Stock/ETF delivery brokerage is not direct mutual fund SIP fee"
+   },
+   {
+    "item": "Old rows 12\u201313",
+    "decision": "Duplicate author",
+    "why": "Two comments about long-term usage and STP/SWP combined in one feedback case"
+   },
+   {
+    "item": "Old rows 1\u20136,26\u201327",
+    "decision": "Thread concentration",
+    "why": "One selected review from original mega-thread; other opinions not independent of same discussion"
+   },
+   {
+    "item": "Crossposts 1sss77h and 1s92n95",
+    "decision": "Duplicate poster / crosspost",
+    "why": "Removed copies of first-hand SIP lifecycle posts"
+   },
+   {
+    "item": "Crosspost 1uurov7",
+    "decision": "Duplicate poster / crosspost",
+    "why": "Removed copy of same 35-year-old portfolio review"
+   },
+   {
+    "item": "Apple iOS duplicate review blocks",
+    "decision": "Repeated page content",
+    "why": "Same Apple review appears twice on the webpage; counted once per reviewer"
+   },
+   {
+    "item": "Apple Coin Vivekaggarwal7",
+    "decision": "Misplaced review",
+    "why": "An Instagram account moderation complaint wrongly appeared on Coin reviews page"
+   },
+   {
+    "item": "Groww daily/weekly SIP",
+    "decision": "Scope ambiguity",
+    "why": "2026 App Store mentions daily/weekly SIP; official mutual-fund Help still says monthly only, so flag as unconfirmed scope"
+   }
+  ],
+  "candidates": [
+   {
+    "id": "C1",
+    "name": "Flexible SIP frequency and automatic step-up",
+    "idea": "Weekly or fortnightly SIPs for irregular earners, and an opt-in yearly step-up tied to salary growth.",
+    "hypothesis": "Smaller, more frequent debits may cut missed payments for gig and stipend earners; step-up turns the 'continuing and increasing' stage into a default.",
+    "test": "First confirm whether Groww's daily/weekly SIP covers mutual funds (its help page and app release notes disagree). Then ask first-time investors in the survey, and A/B weekly vs monthly for irregular-income starters, measuring failed debits and day-180 active rate.",
+    "competitor_rows": 3,
+    "groww_support": 101,
+    "groww_ids": [
+     "R0486",
+     "R0494",
+     "R0502",
+     "R0531",
+     "R0533",
+     "R0534"
+    ]
+   },
+   {
+    "id": "C2",
+    "name": "Quiet mode for long-term SIP investors",
+    "idea": "Opt-in mode that hides trading prompts and daily P&L, and keeps only SIP status, goal progress and payment alerts.",
+    "hypothesis": "Fewer prompts and less return-checking may reduce panic stops in falls (links to O3's calm home screen).",
+    "test": "Opt-in pilot: compare stop rate in the 30 days after a market fall for quiet-mode users vs matched users.",
+    "competitor_rows": 3,
+    "groww_support": 8,
+    "groww_ids": [
+     "R0635",
+     "R0640",
+     "R0664",
+     "R0671",
+     "R0735",
+     "R0784"
+    ]
+   }
+  ]
+ },
+ "lifecycle": {
+  "n": 25,
+  "first_time": 3,
+  "on_groww": 9,
+  "ages_stated": 14,
+  "age_min": 21,
+  "age_max": 44,
+  "under_25": 7,
+  "outcomes": [
+   {
+    "outcome": "Paused all SIPs",
+    "n": 6,
+    "ids": [
+     "L01",
+     "L02",
+     "L13",
+     "L14",
+     "L16",
+     "L17"
+    ],
+    "causes": [
+     "Unemployment",
+     "Emergency fund",
+     "Debt and emergency savings",
+     "Personal reasons",
+     "Performance disappointment",
+     "Shift to other assets"
+    ]
+   },
+   {
+    "outcome": "Considering a pause or stop",
+    "n": 2,
+    "ids": [
+     "L19",
+     "L25"
+    ],
+    "causes": [
+     "Relative fund underperformance",
+     "Market drawdown anxiety"
+    ]
+   },
+   {
+    "outcome": "Switched or trimmed funds, still investing",
+    "n": 6,
+    "ids": [
+     "L03",
+     "L04",
+     "L05",
+     "L12",
+     "L15",
+     "L18"
+    ],
+    "causes": [
+     "Fund switch",
+     "ELSS restructuring",
+     "Fund performance / reallocation",
+     "Regular-to-direct move",
+     "Fund performance concern",
+     "Market fear and underperformance"
+    ]
+   },
+   {
+    "outcome": "Ended at goal",
+    "n": 1,
+    "ids": [
+     "L21"
+    ],
+    "causes": [
+     "Retirement / goal reached"
+    ]
+   },
+   {
+    "outcome": "Starting or continuing",
+    "n": 10,
+    "ids": [
+     "L06",
+     "L07",
+     "L08",
+     "L09",
+     "L10",
+     "L11",
+     "L20",
+     "L22",
+     "L23",
+     "L24"
+    ],
+    "causes": [
+     "Portfolio review",
+     "New investor",
+     "Long-term investing",
+     "Beginner; limited funds",
+     "Early-career salary allocation",
+     "Shift regular to direct",
+     "Predictable long-term automation",
+     "Earnings progression",
+     "Long-term income-based saving",
+     "Salary-linked step-ups"
+    ]
+   }
+  ],
+  "by_stage": {
+   "S01": [],
+   "S02": [
+    "L07",
+    "L09",
+    "L10",
+    "L11"
+   ],
+   "S03": [],
+   "S04": [],
+   "S05": [],
+   "S06": [
+    "L16",
+    "L25"
+   ],
+   "S07": [
+    "L06",
+    "L08",
+    "L20",
+    "L22",
+    "L23",
+    "L24"
+   ],
+   "S08": [
+    "L01",
+    "L02",
+    "L13",
+    "L14"
+   ],
+   "S09": [
+    "L18"
+   ],
+   "S10": [
+    "L03",
+    "L04",
+    "L05",
+    "L11",
+    "L12",
+    "L15",
+    "L17",
+    "L18",
+    "L19"
+   ],
+   "S11": [
+    "L21"
+   ],
+   "S12": [
+    "L01",
+    "L02",
+    "L13",
+    "L14"
+   ]
+  }
+ },
+ "supplementary": {
+  "n": 84,
+  "by_dataset": {
+   "competitor": 47,
+   "lifecycle case": 25,
+   "journey map": 12
+  },
+  "counted_in_rankings": false
+ },
+ "survey": {
+  "n": 0,
+  "counted_in_rankings": false
+ },
+ "labels": "ai",
+ "ai": {
+  "model": "claude-opus-5-5@claude-code",
+  "prompt_version": "v1",
+  "n_records": 2339,
+  "n_ai_labelled": 2339,
+  "label_source": {
+   "ai": 2336,
+   "ai + correction": 3
+  },
+  "flags": {
+   "own-story call needs a person to check": 517,
+   "low confidence": 317
+  },
+  "rules_vs_ai_raw": {
+   "tier_agree": 0.89,
+   "stance_coarse_agree": 0.643
+  },
+  "ai_triggers_sip_relevant": {
+   "other": 134,
+   "payment or mandate failure": 55,
+   "returns below expectation": 30,
+   "market fall": 30,
+   "lack of visible progress": 16,
+   "emergency or big expense": 15,
+   "job change or income loss": 13,
+   "moving money elsewhere": 10,
+   "distrust of funds or market": 6,
+   "confusing statements or return numbers": 1,
+   "cannot pause or skip": 1
+  },
+  "own_story_candidates": {
+   "n": 517,
+   "by_stance": {
+    "self: continuing": 284,
+    "self: paused / stopped / at-risk": 195,
+    "self: stopped then resumed / mixed": 38
+   }
+  },
+  "n_corrections": 3,
+  "cost_usd_to_date": 0.0,
+  "n_requests_to_date": 48
+ }
+}

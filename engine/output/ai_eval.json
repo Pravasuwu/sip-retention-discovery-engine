@@ -1,0 +1,524 @@
+{
+ "model": "claude-opus-5-5@claude-code",
+ "prompt_version": "v1",
+ "info": {
+  "model": "claude-opus-5-5@claude-code",
+  "prompt_version": "v1",
+  "n_records": 2339,
+  "n_ai_labelled": 2339,
+  "label_source": {
+   "ai": 2336,
+   "ai + correction": 3
+  },
+  "flags": {
+   "own-story call needs a person to check": 517,
+   "low confidence": 317
+  },
+  "rules_vs_ai_raw": {
+   "tier_agree": 0.89,
+   "stance_coarse_agree": 0.643
+  },
+  "ai_triggers_sip_relevant": {
+   "other": 134,
+   "payment or mandate failure": 55,
+   "returns below expectation": 30,
+   "market fall": 30,
+   "lack of visible progress": 16,
+   "emergency or big expense": 15,
+   "job change or income loss": 13,
+   "moving money elsewhere": 10,
+   "distrust of funds or market": 6,
+   "confusing statements or return numbers": 1,
+   "cannot pause or skip": 1
+  },
+  "own_story_candidates": {
+   "n": 517,
+   "by_stance": {
+    "self: continuing": 284,
+    "self: paused / stopped / at-risk": 195,
+    "self: stopped then resumed / mixed": 38
+   }
+  },
+  "n_corrections": 3,
+  "cost_usd_to_date": 0.0,
+  "n_requests_to_date": 48
+ },
+ "golden": {
+  "ai_labels_on_golden": 20,
+  "side_by_side": {
+   "n": {
+    "rules": 20,
+    "ai": 20
+   },
+   "type_agree": {
+    "rules": 10,
+    "ai": 12
+   },
+   "type_kappa": {
+    "rules": 0.39,
+    "ai": 0.5
+   },
+   "coarse_agree": {
+    "rules": 13,
+    "ai": 13
+   },
+   "topic_precision": {
+    "rules": 0.52,
+    "ai": 0.59
+   },
+   "topic_recall": {
+    "rules": 0.45,
+    "ai": 0.48
+   },
+   "topic_exact": {
+    "rules": 5,
+    "ai": 6
+   },
+   "stage_answered": {
+    "rules": 15,
+    "ai": 15
+   },
+   "stage_match": {
+    "rules": 4,
+    "ai": 1
+   }
+  },
+  "ai_disagreements": [
+   {
+    "record_id": "R0005",
+    "human_type": "unclear",
+    "ai_type": "stopped_or_paused",
+    "human_topics": "T06;T10",
+    "ai_topics": "T06;T16",
+    "ai_quote": "my EMI and SIP payments cannot be processed",
+    "ai_reason": "Own SIP payments blocked by bank freeze linked to app transaction; support urgency.",
+    "source": "ai",
+    "text": "My bank account has been blocked due to an unexpected transaction from Groww. I did not initiate or withdraw any money, yet funds were automatically credited to my account. It has been almost a month, and my account is still blocked. As a result, my EMI and SIP payments cannot be processed, and I may not receive my salary. This has caused serious financial stress. Please investigate this issue urg"
+   },
+   {
+    "record_id": "R0427",
+    "human_type": "opinion_against",
+    "ai_type": "stopped_or_paused",
+    "human_topics": "T01;T02;T13",
+    "ai_topics": "T01;T02",
+    "ai_quote": "says their enthusiasm is slowly disappearing",
+    "ai_reason": "Own investments flat for years; fading enthusiasm signals at-risk continuation.",
+    "source": "ai",
+    "text": "Reports no returns for two to three years and says their enthusiasm is slowly disappearing."
+   },
+   {
+    "record_id": "R0369",
+    "human_type": "stopped_then_restarted",
+    "ai_type": "stopped_or_paused",
+    "human_topics": "T08;T17;T14",
+    "ai_topics": "T05;T14",
+    "ai_quote": "skipping some SIP instalments because they perceive the investments to be at a return peak",
+    "ai_reason": "Own SIP instalments skipped as market-timing move at perceived peak.",
+    "source": "ai",
+    "text": "Reports skipping some SIP instalments because they perceive the investments to be at a return peak."
+   },
+   {
+    "record_id": "R0360",
+    "human_type": "stopped_or_paused",
+    "ai_type": "unclear",
+    "human_topics": "T01;T02;T11",
+    "ai_topics": "T01;T02",
+    "ai_quote": "Reports no returns over three years",
+    "ai_reason": "Own investment shows no returns for three years; no statement on continuing.",
+    "source": "ai",
+    "text": "Reports no returns over three years and criticises insufficient action against corruption."
+   },
+   {
+    "record_id": "R0015",
+    "human_type": "unclear",
+    "ai_type": "stopped_or_paused",
+    "human_topics": "T16;T05;T06",
+    "ai_topics": "T04;T05",
+    "ai_quote": "tried a lot to skip my sips for a month",
+    "ai_reason": "Knee surgery caused financial strain; skip feature failed when trying to skip own SIP.",
+    "source": "ai",
+    "text": "Giving 1 star just because I tried a lot to skip my sips for a month and it shows it can be done 2 days before sip date, but even before 2 days it doesn't work. I recently got operated on my knee and I'm not able to go for work due to which I'm facing financial issues and just need one month to get back on track and so tried to skip one installment but the useless feature doesn't work. So I urge u"
+   },
+   {
+    "record_id": "R0387",
+    "human_type": "opinion_for",
+    "ai_type": "unclear",
+    "human_topics": "none",
+    "ai_topics": "",
+    "ai_quote": "Conviction is needed to avoid averaging into poorly understood businesses.",
+    "ai_reason": "Advice on averaging into individual stocks and staging capital; not SIPs.",
+    "source": "ai",
+    "text": "Conviction is needed to avoid averaging into poorly understood businesses. Several stocks may correct together and force prioritisation. Staging capital can help manage regret."
+   },
+   {
+    "record_id": "R0220",
+    "human_type": "unclear",
+    "ai_type": "stopped_or_paused",
+    "human_topics": "T06;T16",
+    "ai_topics": "T03;T08",
+    "ai_quote": "when I redeem it i goes down and down and I got only 525",
+    "ai_reason": "Redeemed fund, got less than displayed value, confused and plans to delete account.",
+    "source": "ai",
+    "text": "i using it for around 2 month's and i invested on a cap fund it goes up and I got 549 but when I redeem it i goes down and down and I got only 525. what is happening. then i mind to deleted my account from this app."
+   },
+   {
+    "record_id": "R0460",
+    "human_type": "unclear",
+    "ai_type": "kept_going",
+    "human_topics": "none",
+    "ai_topics": "",
+    "ai_quote": "Invests manually each month as money arrives",
+    "ai_reason": "Own monthly investing continues manually instead of automated SIPs.",
+    "source": "ai",
+    "text": "Invests manually each month as money arrives instead of using automated SIPs."
+   }
+  ],
+  "rules_disagreements": [
+   {
+    "item": 5,
+    "record_id": "R0427",
+    "human": "opinion_against",
+    "engine": "stopped_or_paused"
+   },
+   {
+    "item": 7,
+    "record_id": "R0369",
+    "human": "stopped_then_restarted",
+    "engine": "stopped_or_paused"
+   },
+   {
+    "item": 9,
+    "record_id": "R0360",
+    "human": "stopped_or_paused",
+    "engine": "opinion_against"
+   },
+   {
+    "item": 10,
+    "record_id": "R0385",
+    "human": "unclear",
+    "engine": "opinion_for"
+   },
+   {
+    "item": 11,
+    "record_id": "R0015",
+    "human": "unclear",
+    "engine": "stopped_then_restarted"
+   },
+   {
+    "item": 14,
+    "record_id": "R0344",
+    "human": "opinion_against",
+    "engine": "unclear"
+   },
+   {
+    "item": 15,
+    "record_id": "R0387",
+    "human": "opinion_for",
+    "engine": "opinion_against"
+   },
+   {
+    "item": 16,
+    "record_id": "R0220",
+    "human": "unclear",
+    "engine": "stopped_or_paused"
+   },
+   {
+    "item": 18,
+    "record_id": "R0308",
+    "human": "stopped_or_paused",
+    "engine": "stopped_then_restarted"
+   },
+   {
+    "item": 19,
+    "record_id": "R0460",
+    "human": "unclear",
+    "engine": "kept_going"
+   }
+  ]
+ },
+ "stance_audit": {
+  "rules": {
+   "n": 31,
+   "agree": 28,
+   "disagreements": [
+    {
+     "record_id": "R0324",
+     "machine": "self: continuing",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0460",
+     "machine": "self: continuing",
+     "human": "unclear"
+    },
+    {
+     "record_id": "R0426",
+     "machine": "opinion: sceptical",
+     "human": "self: paused / stopped / at-risk"
+    }
+   ]
+  },
+  "ai": {
+   "n": 31,
+   "agree": 22,
+   "disagreements": [
+    {
+     "record_id": "R0293",
+     "machine": "unclear",
+     "human": "self: continuing"
+    },
+    {
+     "record_id": "R0324",
+     "machine": "opinion: sceptical",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0460",
+     "machine": "self: continuing",
+     "human": "unclear"
+    },
+    {
+     "record_id": "R0463",
+     "machine": "unclear",
+     "human": "self: continuing"
+    },
+    {
+     "record_id": "R0306",
+     "machine": "opinion: sceptical",
+     "human": "self: paused / stopped / at-risk"
+    },
+    {
+     "record_id": "R0015",
+     "machine": "self: paused / stopped / at-risk",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0266",
+     "machine": "self: paused / stopped / at-risk",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0270",
+     "machine": "self: continuing",
+     "human": "self: stopped then resumed / mixed"
+    },
+    {
+     "record_id": "R0308",
+     "machine": "self: paused / stopped / at-risk",
+     "human": "self: stopped then resumed / mixed"
+    }
+   ]
+  }
+ },
+ "two_humans": {
+  "n": 10,
+  "golden_vs_audit": {
+   "exact": 5,
+   "coarse": 7
+  },
+  "ai_vs_golden": {
+   "exact": 5,
+   "coarse": 6
+  },
+  "ai_vs_audit": {
+   "exact": 7,
+   "coarse": 9
+  },
+  "rules_vs_golden": {
+   "exact": 4,
+   "coarse": 6
+  },
+  "rules_vs_audit": {
+   "exact": 9,
+   "coarse": 9
+  },
+  "items": [
+   {
+    "record_id": "R0376",
+    "golden": "kept_going",
+    "audit": "kept_going",
+    "ai": "kept_going",
+    "rules": "kept_going"
+   },
+   {
+    "record_id": "R0291",
+    "golden": "kept_going",
+    "audit": "kept_going",
+    "ai": "kept_going",
+    "rules": "kept_going"
+   },
+   {
+    "record_id": "R0427",
+    "golden": "opinion_against",
+    "audit": "stopped_or_paused",
+    "ai": "stopped_or_paused",
+    "rules": "stopped_or_paused"
+   },
+   {
+    "record_id": "R0369",
+    "golden": "stopped_then_restarted",
+    "audit": "stopped_or_paused",
+    "ai": "stopped_or_paused",
+    "rules": "stopped_or_paused"
+   },
+   {
+    "record_id": "R0458",
+    "golden": "stopped_or_paused",
+    "audit": "stopped_or_paused",
+    "ai": "stopped_or_paused",
+    "rules": "stopped_or_paused"
+   },
+   {
+    "record_id": "R0015",
+    "golden": "unclear",
+    "audit": "stopped_then_restarted",
+    "ai": "stopped_or_paused",
+    "rules": "stopped_then_restarted"
+   },
+   {
+    "record_id": "R0220",
+    "golden": "unclear",
+    "audit": "stopped_or_paused",
+    "ai": "stopped_or_paused",
+    "rules": "stopped_or_paused"
+   },
+   {
+    "record_id": "R0354",
+    "golden": "kept_going",
+    "audit": "kept_going",
+    "ai": "kept_going",
+    "rules": "kept_going"
+   },
+   {
+    "record_id": "R0308",
+    "golden": "stopped_or_paused",
+    "audit": "stopped_then_restarted",
+    "ai": "stopped_or_paused",
+    "rules": "stopped_then_restarted"
+   },
+   {
+    "record_id": "R0460",
+    "golden": "unclear",
+    "audit": "unclear",
+    "ai": "kept_going",
+    "rules": "kept_going"
+   }
+  ]
+ },
+ "analyst_tags": [
+  {
+   "topic": "T01",
+   "by": "rules",
+   "tp": 29,
+   "fp": 9,
+   "fn": 9,
+   "precision": 0.76,
+   "recall": 0.76
+  },
+  {
+   "topic": "T01",
+   "by": "ai",
+   "tp": 24,
+   "fp": 13,
+   "fn": 14,
+   "precision": 0.65,
+   "recall": 0.63
+  },
+  {
+   "topic": "T02",
+   "by": "rules",
+   "tp": 12,
+   "fp": 3,
+   "fn": 4,
+   "precision": 0.8,
+   "recall": 0.75
+  },
+  {
+   "topic": "T02",
+   "by": "ai",
+   "tp": 15,
+   "fp": 7,
+   "fn": 1,
+   "precision": 0.68,
+   "recall": 0.94
+  },
+  {
+   "topic": "T03",
+   "by": "rules",
+   "tp": 6,
+   "fp": 6,
+   "fn": 1,
+   "precision": 0.5,
+   "recall": 0.86
+  },
+  {
+   "topic": "T03",
+   "by": "ai",
+   "tp": 6,
+   "fp": 8,
+   "fn": 1,
+   "precision": 0.43,
+   "recall": 0.86
+  },
+  {
+   "topic": "T04",
+   "by": "rules",
+   "tp": 4,
+   "fp": 6,
+   "fn": 0,
+   "precision": 0.4,
+   "recall": 1.0
+  },
+  {
+   "topic": "T04",
+   "by": "ai",
+   "tp": 4,
+   "fp": 5,
+   "fn": 0,
+   "precision": 0.44,
+   "recall": 1.0
+  },
+  {
+   "topic": "T07",
+   "by": "rules",
+   "tp": 2,
+   "fp": 5,
+   "fn": 1,
+   "precision": 0.29,
+   "recall": 0.67
+  },
+  {
+   "topic": "T07",
+   "by": "ai",
+   "tp": 2,
+   "fp": 5,
+   "fn": 1,
+   "precision": 0.29,
+   "recall": 0.67
+  }
+ ],
+ "rejected_by_quote_gate": [],
+ "corrections": [
+  {
+   "record_id": "R0005",
+   "field": "stance",
+   "ai_value": "self: paused / stopped / at-risk",
+   "corrected_value": "unclear",
+   "reason": "The SIP payments failed because the bank account was frozen; the writer did not decide to stop. An involuntary payment failure is a payment problem (topic T06), not a stop story. Matches the golden-set hand label (unclear)."
+  },
+  {
+   "record_id": "R0220",
+   "field": "themes",
+   "ai_value": "T08;T03",
+   "corrected_value": "T08;T16",
+   "reason": "Nothing in the comment is about fear of a market fall. The writer was confused that the redeemed amount was lower than the displayed value and wants to leave the app: confusing numbers (T08) and money access (T16). Golden-set hand label includes T16."
+  },
+  {
+   "record_id": "R0463",
+   "field": "stance",
+   "ai_value": "unclear",
+   "corrected_value": "self: continuing",
+   "reason": "The comment describes the writer's own SIP of INR 40,000 a month for three years. The AI asked for an explicit 'I will continue'; the label guide only needs the SIP to be running. Matches the hand-checked stance (self: continuing)."
+  }
+ ]
+}
