@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Explain My Returns</title>
+<meta name="description" content="Prototype: a plain-words explainer for first-time SIP investors. Not investment advice. Not affiliated with Groww.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<div class="phone" id="phone">
+
+  <!-- ================= DASHBOARD + SIPs (tabbed home) ================= -->
+  <section class="view on" id="vHome">
+    <header class="home-head">
+      <div class="app-dot" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 3a9 9 0 1 0 9 9h-9z" fill="#5367FF"/><path d="M14 2.5V10h7.5A8 8 0 0 0 14 2.5z" fill="#00B386"/></svg>
+      </div>
+      <h1>Mutual Funds</h1>
+      <button class="ic" data-toast="Search isn't part of this prototype." aria-label="Search">
+        <svg viewBox="0 0 24 24" width="24" height="24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button class="ic" id="btnQuality" aria-label="How we check the AI">
+        <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12l2.4 2.4L15.5 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="avatar" id="btnSetup" aria-label="Choose a sample SIP">R</button>
+    </header>
+
+    <nav class="tabs" role="tablist">
+      <button data-toast="Explore isn't part of this prototype.">Explore</button>
+      <button class="on" data-tab="dash">Dashboard</button>
+      <button data-tab="sips">SIPs</button>
+      <button data-toast="Watchlist isn't part of this prototype.">Watchlist</button>
+    </nav>
+
+    <div class="scroll">
+      <!-- Dashboard tab -->
+      <div id="tabDash">
+        <div class="card hold">
+          <div class="hold-top">
+            <div>
+              <div class="caps">Holdings (1)</div>
+              <div class="hold-val" id="hValue">—</div>
+            </div>
+            <div class="hold-icons">
+              <button class="round" id="btnEye" aria-label="Hide values">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+              </button>
+              <button class="round" data-go="vAnalysis" aria-label="Portfolio analysis">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 20h16M6 16v-3M10 16V9M14 16v-5M18 16V6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M5 11l5-5 4 3 5-5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="dash"></div>
+          <div class="row"><span>1D returns</span><b id="h1d">—</b></div>
+          <div class="row"><span>Total returns</span><b id="hGain">—</b></div>
+          <div class="row"><span>Invested</span><b id="hInv">—</b></div>
+          <div class="row"><span>XIRR <svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-3px"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><b id="hXirr">—</b></div>
+          <!-- NEW: the feature's entry point -->
+          <button class="explain-strip" data-explain>
+            <span class="spark">✦</span>
+            <span class="es-text"><b class="es-title">Explain my returns</b><small class="es-sub">What do these numbers mean?</small></span>
+            <span class="chev">›</span>
+          </button>
+        </div>
+
+        <div class="list-head">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 7h16M7 12h10M10 17h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="dotted">‹› Current (Invested)</span>
+        </div>
+        <button class="holding-row" data-go="vDetails">
+          <span><span class="fund" id="lFund">—</span><small>SIP</small></span>
+          <span class="right"><b id="lValue">—</b><small id="lInv">—</small></span>
+        </button>
+
+        <div class="card promo">
+          <div>
+            <p>Try another SIP: a red month, a slow start, or your own numbers</p>
+            <button class="btn-green" id="btnSetup2">Change SIP</button>
+          </div>
+          <div class="promo-art" aria-hidden="true">
+            <svg viewBox="0 0 80 80" width="78" height="78"><rect x="12" y="18" width="56" height="48" rx="6" fill="#7FD3BC"/><rect x="12" y="18" width="56" height="12" rx="6" fill="#3DAF8F"/><g fill="#1F6F5A"><rect x="20" y="36" width="9" height="8" rx="2"/><rect x="35" y="36" width="9" height="8" rx="2"/><rect x="50" y="36" width="9" height="8" rx="2"/><rect x="20" y="49" width="9" height="8" rx="2"/><rect x="35" y="49" width="9" height="8" rx="2" fill="#0E3B2E"/></g><path d="M8 10l2 4 4 2-4 2-2 4-2-4-4-2 4-2z" fill="#9BE7D1"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIPs tab -->
+      <div id="tabSips" class="hidden">
+        <div class="card">
+          <div class="caps">Monthly SIP amount</div>
+          <div class="hold-val" id="sAmount">—</div>
+        </div>
+        <div class="sec-head"><h2>Active SIPs (1)</h2><span class="dotted small">Sort by: Due date</span></div>
+        <button class="sip-row" data-go="vDetails">
+          <span class="fund-logo" aria-hidden="true">MF</span>
+          <span class="sip-mid"><span class="fund" id="sFund">—</span><small id="sAmt2">—</small></span>
+          <span class="datebox"><b id="sDay">—</b><small id="sMon">—</small></span>
+        </button>
+        <div class="note-pill" id="sNote">Debits on the first working day of each month</div>
+      </div>
+
+      <p class="foot">Prototype for a case study · not affiliated with Groww · nothing here is investment advice.
+        Sample SIPs replay real NAV history (AMFI data via mfapi.in) and are shown by fund category only.</p>
+    </div>
+
+    <nav class="bottom-nav">
+      <button data-toast="Only Mutual Funds is part of this prototype."><svg viewBox="0 0 24 24" width="24" height="24"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 15l3-3 3 2 4-5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Stocks</button>
+      <button data-toast="Only Mutual Funds is part of this prototype."><svg viewBox="0 0 24 24" width="24" height="24"><rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 15l5-6 4 4 3-3 4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>F&amp;O</button>
+      <button class="on"><svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 4a8 8 0 1 0 8 8h-8z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14.5 3.5V9.5h6a7 7 0 0 0-6-6z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>Mutual Funds</button>
+      <button data-toast="Only Mutual Funds is part of this prototype."><svg viewBox="0 0 24 24" width="24" height="24"><rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Loans</button>
+    </nav>
+  </section>
+
+  <!-- ================= SIP DETAILS ================= -->
+  <section class="view" id="vDetails">
+    <header class="sub-head">
+      <button class="ic" data-back aria-label="Back"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M20 12H5m6-6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <h1>SIP details</h1>
+      <button class="dotted link" id="btnCancel">Cancel SIP</button>
+    </header>
+    <div class="scroll">
+      <div class="pad">
+        <p class="strong-sm">First working day of every month</p>
+        <button class="fund-link" data-go="vAnalysis"><span id="dFund">—</span> <span class="chev">›</span></button>
+        <div class="btn-row">
+          <button class="btn-tint" data-toast="Step-up isn't part of this prototype.">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 18v-4M11 18V10M16 18V6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>Add step-up</button>
+          <button class="btn-outline" id="btnChange">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 20h4L19 9l-4-4L4 16z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>Change amount/date</button>
+        </div>
+      </div>
+
+      <!-- NEW: explain card on SIP details -->
+      <div class="pad">
+        <button class="explain-card" data-explain>
+          <span class="spark">✦</span>
+          <span class="es-text"><b class="es-title" id="dExplainTitle">Explain my returns</b><small id="dExplainSub">—</small></span>
+          <span class="chev">›</span>
+        </button>
+      </div>
+
+      <div class="sep"></div>
+      <div class="pad">
+        <h2>Upcoming</h2>
+        <div class="up-row">
+          <svg viewBox="0 0 24 24" width="26" height="26"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 10h16M9 3v4M15 3v4" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="13" width="4" height="4" fill="currentColor"/></svg>
+          <span class="up-mid"><span id="dNextN">—</span><small id="dNextD">—</small></span>
+          <button class="dotted link" id="btnSkip">Skip</button>
+        </div>
+      </div>
+      <div class="sep"></div>
+      <div class="pad">
+        <h2>Previous instalments</h2>
+        <ol class="timeline" id="dPrev"></ol>
+        <button class="dotted link sm" id="btnMore">View more</button>
+      </div>
+      <div class="sep"></div>
+      <div class="pad">
+        <button class="details-toggle" id="btnDetails"><h2>Details</h2><svg viewBox="0 0 24 24" width="24" height="24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+        <div class="details hidden" id="dDetails"></div>
+      </div>
+      <div class="sep"></div>
+      <div class="pad"><button class="help-pill" data-toast="Help isn't part of this prototype.">ⓘ Need help</button></div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO ANALYSIS ================= -->
+  <section class="view" id="vAnalysis">
+    <header class="sub-head">
+      <button class="ic" data-back aria-label="Back"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M20 12H5m6-6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <h1>MF Portfolio analysis</h1>
+    </header>
+    <div class="scroll">
+      <div class="pad">
+        <div class="an-top">
+          <div><span class="muted">Current <i class="sq cur"></i></span><b id="aValue">—</b><small id="aGain">—</small></div>
+          <div class="right"><span class="muted"><i class="sq inv"></i> Invested</span><b id="aInv">—</b></div>
+        </div>
+      </div>
+      <div class="chart" id="chart"></div>
+      <div class="pills" id="pills">
+        <button data-p="30">1M</button><button data-p="91">3M</button><button data-p="182">6M</button><button data-p="all" class="on">All</button>
+      </div>
+      <div class="pad">
+        <button class="explain-card" data-explain data-q="What does this chart show?">
+          <span class="spark">✦</span>
+          <span class="es-text"><b>What does this chart mean?</b><small>Why value and invested move apart, in plain words</small></span>
+          <span class="chev">›</span>
+        </button>
+      </div>
+      <p class="foot">Purple: what your SIP is worth each day. Dotted: the money you have put in, which steps up on each instalment.</p>
+    </div>
+  </section>
+
+  <!-- ================= SHEETS ================= -->
+  <div class="scrim" id="scrim"></div>
+
+  <section class="sheet tall" id="sheetExplain" aria-label="Explain my returns">
+    <div class="grab"></div>
+    <div class="sheet-head">
+      <b><span class="spark sm">✦</span> Explain my returns</b>
+      <button class="ic" data-close aria-label="Close">✕</button>
+    </div>
+    <div class="sheet-body" id="chat">
+      <div class="plain-card" id="plainCard"></div>
+      <div class="notice">I explain your numbers. I never tell you to buy, sell, stop or continue. Not investment advice.</div>
+    </div>
+    <div class="chips" id="chips"></div>
+    <form class="ask" id="askForm">
+      <input id="askInput" maxlength="300" autocomplete="off" placeholder="Ask about your SIP…" aria-label="Your question">
+      <button type="submit" aria-label="Send"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 12l16-8-6 16-2.5-6.5L4 12z" fill="currentColor"/></svg></button>
+    </form>
+  </section>
+
+  <section class="sheet" id="sheetCancel" aria-label="Cancel SIP">
+    <div class="grab"></div>
+    <div class="sheet-head"><b>Cancel this SIP?</b><button class="ic" data-close aria-label="Close">✕</button></div>
+    <div class="sheet-body">
+      <p class="muted">Your units stay invested. You can restart a SIP any time.</p>
+      <div class="cancel-explain hidden" id="cancelExplain">
+        <p id="cancelExplainText"></p>
+        <button class="btn-outline full" data-explain>✦ Explain my returns first</button>
+      </div>
+      <button class="btn-danger full" id="btnConfirmCancel">Yes, cancel SIP</button>
+      <p class="tiny">Cancelling stays one tap away. We only offer an explanation; we never ask you to stay.</p>
+    </div>
+  </section>
+
+  <section class="sheet" id="sheetSetup" aria-label="Choose a SIP">
+    <div class="grab"></div>
+    <div class="sheet-head"><b>Choose a SIP to look at</b><button class="ic" data-close aria-label="Close">✕</button></div>
+    <div class="sheet-body">
+      <div class="caps sm">Quick scenarios</div>
+      <div class="scenarios">
+        <button data-scn="red"><b>A red month</b><small>₹1,000/month from Nov 2025, seen on 1 Apr 2026</small></button>
+        <button data-scn="flat"><b>Slow start</b><small>₹1,000/month from Dec 2025, seen today</small></button>
+        <button data-scn="green"><b>Long-running SIP</b><small>₹1,000/month from Jan 2016, seen today</small></button>
+      </div>
+      <div class="seg">
+        <button class="on" data-mode="sample">Sample fund</button>
+        <button data-mode="manual">My own numbers</button>
+      </div>
+      <form id="formSample" class="form">
+        <label>Fund type<select name="fund" id="fFund"></select></label>
+        <label>Monthly amount (₹)<input name="amount" type="number" min="100" step="100" value="1000"></label>
+        <label>First instalment<select name="start" id="fStart"></select></label>
+        <label>See it as of<select name="as_of" id="fAsOf"></select></label>
+        <button class="btn-green full" type="submit">Show this SIP</button>
+      </form>
+      <form id="formManual" class="form hidden">
+        <label>Monthly amount (₹)<input name="amount" type="number" min="100" step="100" value="1000" required></label>
+        <label>Instalments paid so far<input name="instalments" type="number" min="1" max="480" value="6" required></label>
+        <label>Current value in your app (₹)<input name="current_value" type="number" min="0" value="5600" required></label>
+        <p class="tiny">Only these three numbers are used. Don't enter names, PAN or account details.</p>
+        <button class="btn-green full" type="submit">Show this SIP</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="sheet tall" id="sheetQuality" aria-label="How we check the AI">
+    <div class="grab"></div>
+    <div class="sheet-head"><b>How we check the AI</b><button class="ic" data-close aria-label="Close">✕</button></div>
+    <div class="sheet-body" id="qualityBody">Loading…</div>
+  </section>
+
+  <div class="toast" id="toast" role="status"></div>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

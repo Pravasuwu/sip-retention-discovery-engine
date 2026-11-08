@@ -1,0 +1,2 @@
+fastapi>=0.115
+uvicorn>=0.30  # local runs only; Vercel calls the app directly
