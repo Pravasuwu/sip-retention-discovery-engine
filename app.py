@@ -106,12 +106,13 @@ AI_EVAL = json.loads((OUT / "ai_eval.json").read_text(encoding="utf-8")) if (OUT
 LABEL_SETS = {"Keyword rules": ""}
 if (OUT / "engine_output_ai.json").exists() and (OUT / "coded_records_ai.csv").exists():
     LABEL_SETS["Claude"] = "_ai"
-# Rules stay the default: the deck's numbers come from them. Claude's labels are one click away.
-LABELS = "Keyword rules"
+# Claude is the default when its labels exist: the deck and the evidence log quote the Claude numbers.
+DEFAULT_LABELS = "Claude" if "Claude" in LABEL_SETS else "Keyword rules"
+LABELS = DEFAULT_LABELS
 if len(LABEL_SETS) > 1:
-    LABELS = st.segmented_control("Labels", list(LABEL_SETS), default="Keyword rules", key="labels",
+    LABELS = st.segmented_control("Labels", list(LABEL_SETS), default=DEFAULT_LABELS, key="labels",
                                   help="Which labeller sorted the comments. Every number on every page follows this choice. "
-                                       "See the Appendix for how each one scored against blind human labels.") or "Keyword rules"
+                                       "See the Appendix for how each one scored against blind human labels.") or DEFAULT_LABELS
 D, DF = load(LABEL_SETS[LABELS])
 PEOPLE, CODES, UR_THEMES, SURVEY_FIGS = load_extra()
 META = D["meta"]
